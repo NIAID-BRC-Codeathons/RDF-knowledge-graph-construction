@@ -1,0 +1,44 @@
+{
+  "title": "Pathogen",
+  "description": "Enumeration of classes of pathogens, e.g., bacteria, viruses, fungi, protozoa, prions, or multicellular parasites.",
+  "required": ["name", "pathogen_type", "pathogen_description", "taxon_id", "country", "run_accession", "experiment_title"],
+  "properties": {
+    "name": {
+      "type": "string", 
+      "description": "The name of the pathogen."
+    },
+    "pathogen_type": {
+      "type": "string",
+      "enum": [
+        "Bacteria",
+        "Fungus",
+        "MulticellularParasite",
+        "Prion",
+        "Protozoa",
+        "Virus"
+      ],
+      "description": "The name of the pathogen class."
+    },
+    "pathogen_description": {
+      "type": "string",
+      "description": "A human-readable description of the pathogen class."
+    },
+    "taxon_id": {
+      "type": "numerical", 
+      "description": "Taxon ID for this pathogen class."
+    },
+     "country": {
+      "type": "string", 
+      "description": "Name of the country where sample was collected."
+    },
+     "run_accession": {
+      "type": "string", 
+      "description": "Unique identifier assigned to a specific set of raw sequencing data files from a single sequencing event."
+    },
+     "experiment_title": {
+      "type": "string", 
+      "description": "Brief, descriptive, human-readable title for a specific sequencing experiment."
+    }
+  },
+  "additionalProperties": false
+}
