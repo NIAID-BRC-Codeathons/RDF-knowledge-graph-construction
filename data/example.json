@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/",
+    "taxonRank": {
+      "@id": "https://schema.org/taxonRank",
+      "@type": "@id"
+    }
+  },
+  "@type": "Taxon",
+  "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10244",
+  "dct:conformsTo": "https://bioschemas.org/profiles/Taxon/1.0-RELEASE",
+  "name": "Monkeypox virus",
+  "alternateName": [
+    "mpox virus",
+    "monkey pox virus"
+  ],
+  "description": "Monkeypox virus is a species of double-stranded DNA virus in the genus Orthopoxvirus, family Poxviridae. It causes mpox (monkeypox), a zoonotic disease similar to smallpox.",
+  "taxonRank": "http://purl.obolibrary.org/obo/NCBITaxon_species",
+  "parentTaxon": {
+    "@type": "Taxon",
+    "@id": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10242",
+    "name": "Orthopoxvirus monkeypox"
+  },
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "NCBI Taxonomy ID",
+    "value": "10244",
+    "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10244"
+  },
+  "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=10244",
+  "sameAs": "https://en.wikipedia.org/wiki/Monkeypox_virus",
+  "subjectOf": [
+    {
+      "@type": "Dataset",
+      "identifier": "SRR19428466",
+      "name": "GridION sequencing: Metagenomics of blister fluid: Monkeypox virus reads",
+      "description": "GridION sequencing: Metagenomics of blister fluid: Monkeypox virus reads",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "United Kingdom"
+      },
+      "url": "https://www.ncbi.nlm.nih.gov/sra/?term=SRR19428466",
+      "measurementTechnique": "GridION sequencing",
+      "keywords": "metagenomics, blister fluid, Monkeypox virus"
+    }
+  ]
+}
