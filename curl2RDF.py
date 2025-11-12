@@ -3,6 +3,7 @@ import pandas as pd
 from io import StringIO
 import os
 import json
+from pyld import jsonld
 
 pd.set_option('display.max_columns', None)        # Show all columns
 pd.set_option('display.max_rows', None)           # Show all rows (use with caution if large)
@@ -66,6 +67,7 @@ json_ld_template = {
     ]
 }
 
+
 # Iterate through each row in the DataFrame
 for index, row in df.iterrows():
     # Create a copy of the template
@@ -78,14 +80,17 @@ for index, row in df.iterrows():
     json_ld_doc["subjectOf"][0]["description"] = str(row['description']) if pd.notna(row['description']) else ""
     json_ld_doc["subjectOf"][0]["spatialCoverage"]["name"] = str(row['country'])
 
+    # Convert JSON-LD to N-Triples
+    ntriples = jsonld.to_rdf(json_ld_doc, {'format': 'application/n-quads'})
+
     # Create filename using the run_accession
-    filename = f"{row['run_accession']}.jsonld"
+    filename = f"{row['run_accession']}.nt"
     filepath = os.path.join(output_dir, filename)
 
-    # Write the JSON-LD file
+    # Write the N-Triples file
     with open(filepath, 'w', encoding='utf-8') as f:
-        json.dump(json_ld_doc, f, indent=2, ensure_ascii=False)
+        f.write(ntriples)
 
     print(f"Created: {filepath}")
 
-print(f"\nGenerated {len(df)} JSON-LD files in {output_dir}/")
+print(f"\nGenerated {len(df)} N-Triples files in {output_dir}/")
