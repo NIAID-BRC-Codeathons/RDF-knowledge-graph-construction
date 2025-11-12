@@ -1,0 +1,52 @@
+2025-11-12 14:29:17.718 - INFO: [1mQLever Server, compiled on Wed Nov 12 15:33:30 UTC 2025 using git hash 8c99fe[22m
+2025-11-12 14:29:17.718 - INFO: Initializing server ...
+2025-11-12 14:29:17.718 - INFO: The git hash used to build this index was "3db56e"
+2025-11-12 14:29:17.718 - INFO: Reading vocabulary from file decoder.vocabulary.words ...
+2025-11-12 14:29:17.718 - INFO: Done, number of words: 20
+2025-11-12 14:29:17.718 - INFO: Number of words in internal vocabulary (these are also part of the external vocabulary): 6
+2025-11-12 14:29:17.719 - INFO: Registered PSO permutation: #relations = 1, #blocks = 1, #triples = 3
+2025-11-12 14:29:17.719 - INFO: Registered PSO permutation: #relations = 6, #blocks = 1, #triples = 12
+2025-11-12 14:29:17.719 - INFO: Registered POS permutation: #relations = 1, #blocks = 1, #triples = 3
+2025-11-12 14:29:17.719 - INFO: Registered POS permutation: #relations = 6, #blocks = 1, #triples = 12
+2025-11-12 14:29:17.719 - INFO: Registered OPS permutation: #relations = 11, #blocks = 1, #triples = 12
+2025-11-12 14:29:17.719 - INFO: Registered OSP permutation: #relations = 11, #blocks = 1, #triples = 12
+2025-11-12 14:29:17.719 - INFO: Registered SPO permutation: #relations = 3, #blocks = 1, #triples = 12
+2025-11-12 14:29:17.719 - INFO: Registered SOP permutation: #relations = 3, #blocks = 1, #triples = 12
+2025-11-12 14:29:17.719 - INFO: Reading patterns from file decoder.index.patterns ...
+2025-11-12 14:29:17.719 - INFO: Sorting random result tables to estimate the sorting performance of this machine ...
+2025-11-12 14:29:17.720 - INFO: Access token for restricted API calls is ""
+2025-11-12 14:29:17.720 - INFO: The server is ready, listening for requests on port 7007 ...
+2025-11-12 14:29:17.731 - INFO: 
+2025-11-12 14:29:17.731 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
+2025-11-12 14:29:17.731 - INFO: Alive check with message "from the `qlever` CLI"
+2025-11-12 14:29:17.740 - INFO: 
+2025-11-12 14:29:17.740 - INFO: Request received via GET, no content type specified
+2025-11-12 14:29:17.740 - ERROR: Access token was provided but server was started without --access-token
+2025-11-12 14:29:17.746 - INFO: 
+2025-11-12 14:29:17.746 - INFO: Request received via GET, no content type specified
+2025-11-12 14:29:17.746 - ERROR: Access token was provided but server was started without --access-token
+2025-11-12 14:29:17.753 - INFO: 
+2025-11-12 14:29:17.753 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
+2025-11-12 14:29:17.753 - INFO: Processing command "cache-stats": get cache statistics
+2025-11-12 14:29:17.759 - INFO: 
+2025-11-12 14:29:17.759 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
+2025-11-12 14:29:17.759 - INFO: Processing command "get-settings": get server settings
+2025-11-12 14:29:24.833 - INFO: 
+2025-11-12 14:29:24.833 - INFO: Request received via GET, no content type specified
+2025-11-12 14:29:24.833 - INFO: Processing command "stats": get index statistics
+2025-11-12 14:29:36.250 - INFO: 
+2025-11-12 14:29:36.250 - INFO: Request received via GET, no content type specified
+2025-11-12 14:29:36.254 - INFO: Processing the following SPARQL Query:
+PREFIX  xsd:  <http://www.w3.org/2001/XMLSchema#>
+PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX  rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT DISTINCT  ?type
+WHERE
+  { { ?s  rdf:type  ?type } }
+LIMIT   1000
+
+2025-11-12 14:29:36.254 - INFO: Requested media types of the result are: "application/sparql-results+json", "application/sparql-results+xml", "text/tab-separated-values", "text/csv"
+2025-11-12 14:29:36.255 - INFO: Query planning done in 4 ms
+2025-11-12 14:29:36.255 - INFO: Result has unknown size (not computed yet)
+2025-11-12 14:29:36.256 - INFO: Done processing query and sending result, total time was 5 ms

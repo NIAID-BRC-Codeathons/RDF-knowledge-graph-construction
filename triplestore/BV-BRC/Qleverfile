@@ -1,0 +1,28 @@
+#
+# qlever get-data  #
+# qlever index     #
+# qlever start     #
+# removed from ui section: UI_CONFIG = XYZ
+
+[data]
+NAME              = decoder
+BASE_URL          = https://example.org/hackathon
+GET_DATA_CMD      = cp ../../data/output/*.nt ./data
+DESCRIPTION       = BVBRC metadata ${BASE_URL}
+TEXT_DESCRIPTION  = BVBRC release graph description
+FORMAT            = nq
+
+[index]
+INPUT_FILES     = ./data/*
+CAT_INPUT_FILES = ( cat ./data/*.nt )
+SETTINGS_JSON   = { "add-text-index": true, "ascii-prefixes-only": false, "num-triples-per-batch": 100000 }
+
+[server]
+PORT               = 7007
+TIMEOUT            = 240s
+
+[runtime]
+SYSTEM = docker
+IMAGE  = docker.io/adfreiburg/qlever:latest
+
+[ui]

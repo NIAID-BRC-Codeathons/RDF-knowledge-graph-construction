@@ -1,0 +1,10 @@
+_:b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Virus> .
+_:b0 <https://schema.org/identifier> "10244" .
+_:b0 <https://schema.org/subjectOf> _:b1 .
+_:b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Dataset> .
+_:b1 <https://schema.org/description> "GridION sequencing: Metagenomics of blister fluid: Monkeypox virus reads" .
+_:b1 <https://schema.org/identifier> "SRR19504273" .
+_:b1 <https://schema.org/name> "GridION sequencing: Metagenomics of blister fluid: Monkeypox virus reads" .
+_:b1 <https://schema.org/spatialCoverage> _:b2 .
+_:b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Place> .
+_:b2 <https://schema.org/name> "United Kingdom" .

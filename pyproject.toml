@@ -7,5 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "pandas>=2.3.3",
     "pyld>=2.0.4",
+    "qlever>=0.5.33",
     "requests>=2.32.5",
 ]
