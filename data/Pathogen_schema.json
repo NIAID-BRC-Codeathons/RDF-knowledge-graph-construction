@@ -1,44 +1,45 @@
 {
-  "title": "Pathogen",
-  "description": "Enumeration of classes of pathogens, e.g., bacteria, viruses, fungi, protozoa, prions, or multicellular parasites.",
-  "required": ["name", "pathogen_type", "pathogen_description", "taxon_id", "country", "run_accession", "experiment_title"],
-  "properties": {
-    "name": {
-      "type": "string", 
-      "description": "The name of the pathogen."
+  "@context": "https://schema.org",
+  "@type": "InfectiousDisease",
+  "name": "MonkeyPox",
+  "description": "An infectious disease",
+  "sameAs": "https://en.wikipedia.org/wiki/Mpox",
+  "infectiousAgentClass": {
+    "@type": "InfectiousAgentClass",
+    "name": "{Virus}",
+    "description": "Infectious agent class for this disease."
+  },
+
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "country",
+      "value":  "{country}",
+      "description": "Country where sample was collected."
     },
-    "pathogen_type": {
-      "type": "string",
-      "enum": [
-        "Bacteria",
-        "Fungus",
-        "MulticellularParasite",
-        "Prion",
-        "Protozoa",
-        "Virus"
-      ],
-      "description": "The name of the pathogen class."
+    {
+      "@type": "PropertyValue",
+      "propertyID": "taxon_id",
+      "value":  "https://purl.uniprot.org/taxonomy/{tax_id}",
+      "description": "Taxon ID for this infectious agent class."
     },
-    "pathogen_description": {
-      "type": "string",
-      "description": "A human-readable description of the pathogen class."
-    },
-    "taxon_id": {
-      "type": "numerical", 
-      "description": "Taxon ID for this pathogen class."
-    },
-     "country": {
-      "type": "string", 
-      "description": "Name of the country where sample was collected."
-    },
-     "run_accession": {
-      "type": "string", 
+    {
+      "@type": "PropertyValue",
+      "propertyID": "run_accession",
+      "value": "{run_accession}",
       "description": "Unique identifier assigned to a specific set of raw sequencing data files from a single sequencing event."
     },
-     "experiment_title": {
-      "type": "string", 
+    {
+      "@type": "PropertyValue",
+      "propertyID": "experiment_title",
+      "value": "{experiment_title}",
       "description": "Brief, descriptive, human-readable title for a specific sequencing experiment."
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "sample_description",
+      "value": "{description}",
+      "description": "A human-readable description of the sample."
     }
-  },
-  "additionalProperties": false
+  ]
 }
