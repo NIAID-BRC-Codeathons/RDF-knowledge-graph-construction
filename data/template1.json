@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "InfectiousAgentClass",
+  "description": "Enumeration of classes of infectious agents, e.g., bacteria, viruses, fungi, protozoa, prions, or multicellular parasites. Used to categorize the causative agent of an InfectiousDisease.",
+  "type": "object",
+  "required": ["@type", "name"],
+  "properties": {
+    "@context": {
+      "type": "string",
+      "enum": ["https://schema.org"]
+    },
+    "@type": {
+      "type": "string",
+      "enum": ["InfectiousAgentClass"]
+    },
+    "name": {
+      "type": "string",
+      "enum": [
+        "Bacteria",
+        "Fungus",
+        "MulticellularParasite",
+        "Prion",
+        "Protozoa",
+        "Virus"
+      ],
+      "description": "The name of the infectious agent class."
+    },
+    "description": {
+      "type": "string",
+      "description": "A human-readable description of the infectious agent class."
+    },
+    "sameAs": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of a reference Web page that unambiguously indicates the class identity, such as a Wikipedia entry."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "A URL that unambiguously identifies this class."
+    },
+    "taxon_id": {
+      "type": "numerical",
+      "description": "Taxon ID for this infectious agent class."
+    },
+     "country": {
+      "type": "Country",
+      "description": "Name of the country where sample was collected."
+    },
+     "run_accession": {
+      "type": "object",
+      "description": "Unique identifier assigned to a specific set of raw sequencing data files from a single sequencing event."
+    },
+     "experiment_title": {
+      "type": "string",
+      "description": "Brief, descriptive, human-readable title for a specific sequencing experiment. ."
+    }
+  },
+  "additionalProperties": false
+}
