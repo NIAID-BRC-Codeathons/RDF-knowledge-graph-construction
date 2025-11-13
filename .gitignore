@@ -1,1 +1,22 @@
 /.idea
+.vscode
+
+# Environment variables
+.env
+
+# Python
+.venv
+dist/
+__pycache__/
+*.egg-info/
+.*_cache
+.coverage
+.langgraph_api/
+# uv.lock
+
+# Data
+.DS_Store
+
+#Chainlit
+.chainlit
+chainlit.md
