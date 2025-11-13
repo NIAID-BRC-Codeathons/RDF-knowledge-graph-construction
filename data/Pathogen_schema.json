@@ -1,5 +1,8 @@
 {
-  "@context": "https://schema.org/",
+ "@context": {
+    "@vocab": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/"
+  },
   "@type": "InfectiousDisease",
   "name": "MonkeyPox",
   "description": "An infectious disease",

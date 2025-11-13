@@ -4,6 +4,7 @@ from io import StringIO
 import os
 import json
 from pyld import jsonld
+from rdflib import Graph
 
 pd.set_option('display.max_columns', None)        # Show all columns
 pd.set_option('display.max_rows', None)           # Show all rows (use with caution if large)
@@ -14,10 +15,11 @@ pd.set_option('display.expand_frame_repr', False) # Prevent line wrapping
 # Make the API request
 url = "https://www.ebi.ac.uk/ena/portal/api/search"
 
+# https://www.ebi.ac.uk/ena/portal/api/search?result=read_run&query=tax_eq(10244)&fields=ALL
 # Data to be sent in the POST request body
 data = {
     'result': 'read_run',
-    'query': 'tax_eq(10244) AND country="united kingdom"',
+    'query': 'tax_eq(10244)',
     'fields': 'run_accession,experiment_title,tax_id,country,description',  #sequencing_longitude,sequencing_location',
     'format': 'tsv'
 }
@@ -46,27 +48,32 @@ output_dir = "data/output"
 os.makedirs(output_dir, exist_ok=True)
 
 # JSON-LD template
-json_ld_template = {
-    "@context": {
-        "@vocab": "https://schema.org/",
-        "dct": "http://purl.org/dc/terms/"
-    },
-    "@type": "Virus",
-    "identifier": None,
-    "subjectOf": [
-        {
-            "@type": "Dataset",
-            "identifier": None,
-            "name": None,
-            "description": None,
-            "spatialCoverage": {
-                "@type": "Place",
-                "name": None
-            }
-        }
-    ]
-}
+# json_ld_template = {
+#     "@context": {
+#         "@vocab": "https://schema.org/",
+#         "dct": "http://purl.org/dc/terms/"
+#     },
+#     "@type": "Virus",
+#     "identifier": None,
+#     "subjectOf": [
+#         {
+#             "@type": "Dataset",
+#             "identifier": None,
+#             "name": None,
+#             "description": None,
+#             "spatialCoverage": {
+#                 "@type": "Place",
+#                 "name": None
+#             }
+#         }
+#     ]
+# }
 
+
+# Read JSON-LD template from file
+template_file = "./data/Pathogen_schema.json"  # You can change this path as needed
+with open(template_file, 'r', encoding='utf-8') as f:
+    json_ld_template = json.load(f)
 
 # Iterate through each row in the DataFrame
 for index, row in df.iterrows():
@@ -74,14 +81,39 @@ for index, row in df.iterrows():
     json_ld_doc = json.loads(json.dumps(json_ld_template))
 
     # Fill in the values from the row
-    json_ld_doc["identifier"] = str(row['tax_id'])
-    json_ld_doc["subjectOf"][0]["identifier"] = str(row['run_accession'])
-    json_ld_doc["subjectOf"][0]["name"] = str(row['experiment_title'])
-    json_ld_doc["subjectOf"][0]["description"] = str(row['description']) if pd.notna(row['description']) else ""
-    json_ld_doc["subjectOf"][0]["spatialCoverage"]["name"] = str(row['country'])
+    # json_ld_doc["identifier"] = str(row['tax_id'])
+    # json_ld_doc["subjectOf"][0]["identifier"] = str(row['run_accession'])
+    # json_ld_doc["subjectOf"][0]["name"] = str(row['experiment_title'])
+    # json_ld_doc["subjectOf"][0]["description"] = str(row['description']) if pd.notna(row['description']) else ""
+    # json_ld_doc["subjectOf"][0]["spatialCoverage"]["name"] = str(row['country'])
 
-    # Convert JSON-LD to N-Triples
-    ntriples = jsonld.to_rdf(json_ld_doc, {'format': 'application/n-quads'})
+    json_ld_doc["additionalProperty"][1]["value"] =  "https://purl.uniprot.org/taxonomy/" + str(row['tax_id'])
+    json_ld_doc["additionalProperty"][2]["value"] = str(row['run_accession'])
+    json_ld_doc["additionalProperty"][3]["value"] = str(row['experiment_title'])
+    json_ld_doc["additionalProperty"][4]["value"] = str(row['description']) if pd.notna(row['description']) else ""
+    json_ld_doc["additionalProperty"][0]["value"]= str(row['country'])
+
+    # # Convert JSON-LD to N-Triples
+    # ntriples = jsonld.to_rdf(json_ld_doc, {'format': 'application/n-quads'})
+    #
+    # # Create filename using the run_accession
+    # filename = f"{row['run_accession']}.nt"
+    # filepath = os.path.join(output_dir, filename)
+    #
+    # # Write the N-Triples file
+    # with open(filepath, 'w', encoding='utf-8') as f:
+    #     f.write(ntriples)
+
+    # Convert JSON-LD to N-Quads
+    nquads = jsonld.to_rdf(json_ld_doc, {'format': 'application/n-quads'})
+
+    # Parse with rdflib and skolemize blank nodes
+    g = Graph()
+    g.parse(data=nquads, format='nquads')
+    g = g.skolemize()  # Replace blank nodes with skolem IRIs
+
+    # Serialize to N-Triples
+    ntriples = g.serialize(format='nt')
 
     # Create filename using the run_accession
     filename = f"{row['run_accession']}.nt"
