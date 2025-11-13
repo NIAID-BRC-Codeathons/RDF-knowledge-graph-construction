@@ -1,0 +1,16 @@
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?subject  ?spatialcoverage_name ?run_accession
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+    ?additionalproperty schema:propertyID "run_accession" .
+    ?additionalproperty schema:value ?run_accession .
+
+
+	?subject schema:spatialCoverage ?spatialcoverage .
+    ?spatialcoverage schema:name ?spatialcoverage_name .
+
+    FILTER(REGEX(?spatialcoverage_name, "Japan"))
+}

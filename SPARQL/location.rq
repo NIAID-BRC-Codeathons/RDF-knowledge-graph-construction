@@ -1,0 +1,14 @@
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value ?name ?spatial_name
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?subject schema:name "Bacillus anthracis" .
+
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+
+  ?subject schema:spatialCoverage ?spatialcoverage .
+  ?spatialcoverage schema:name ?spatial_name .
+}

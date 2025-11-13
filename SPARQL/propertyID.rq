@@ -9,5 +9,4 @@ WHERE {
   ?object rdf:type ?otype .
   ?object schema:value ?value .
   ?object schema:propertyID ?propertyid .
-
 }
