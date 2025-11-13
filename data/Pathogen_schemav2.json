@@ -1,38 +1,66 @@
 {
-  "@context": [
-    "https://schema.org"
-
+  "@context": [{
+    "@vocab": "https://schema.org/",
+    "dct": "http://purl.org/dc/terms/"
+    }
   ],
   "@graph": [
     {
+      "@id": "https://example.com/diseases/mpox",
       "@type": "InfectiousDisease",
-      "@id": "https://example.com/diseases/covid-19",
-      "name": "COVID-19",
-      "description": "A respiratory illness caused by the SARS-CoV-2 virus.",
-      "infectiousAgent": "SARS-CoV-2",
-      "infectiousAgentClass": "prt:Virus",
-      "transmissionMethod": "Airborne transmission via respiratory droplets.",
-      "url": "https://www.who.int/health-topics/coronavirus",
-      "sameAs": "https://www.wikidata.org/wiki/Q84263196"
+      "name": "MonkeyPox",
+      "description": "An infectious disease",
+      "sameAs": "https://en.wikipedia.org/wiki/Mpox",
+      "infectiousAgentClass": {
+        "@type": "InfectiousAgentClass",
+        "name": "{Virus}",
+        "description": "Infectious agent class for this disease."
+      },
+      "url": "https://www.who.int/health-topics/mpox",
+      "spatialCoverage": {
+        "@type": "Place",
+        "name": "{country}"
+      },
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "run_accession",
+          "value": "{run_accession}",
+          "description": "Unique identifier assigned to a specific set of raw sequencing data files from a single sequencing event."
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "experiment_title",
+          "value": "{experiment_title}",
+          "description": "Brief, descriptive, human-readable title for a specific sequencing experiment."
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "sample_description",
+          "value": "{description}",
+          "description": "A human-readable description of the sample."
+        }
+      ]
     },
     {
-      "@type": ["Taxon", "BioChemEntity"],
-      "@id": "https://example.com/taxa/sars-cov-2",
-      "name": "SARS-CoV-2",
+      "@type": [
+        "Taxon",
+        "BioChemEntity"
+      ],
+      "@id": "https://purl.uniprot.org/taxonomy/{tax_id}",
+      "name": "https://purl.uniprot.org/taxonomy/{tax_id}",
       "taxonRank": {
         "@type": "PropertyValue",
         "name": "species",
-        "value": "http://purl.obolibrary.org/obo/NCIT_C130964"
+        "value": "TODO_http://purl.obolibrary.org/obo/NCIT_C130964"
       },
       "parentTaxon": {
         "@type": "Taxon",
-        "name": "Severe acute respiratory syndrome-related coronavirus"
+        "name": "An infectious disease"
       },
-      "identifier": "NCBI:txid2697049",
-      "url": "https://www.ncbi.nlm.nih.gov/taxonomy/2697049",
-      "sameAs": "https://www.wikidata.org/wiki/Q82069695",
+      "identifier": "TODO_NCBI:txid2697049",
       "associatedDisease": {
-        "@id": "https://example.com/diseases/covid-19"
+        "@id": "https://example.com/diseases/mpox"
       }
     }
   ]
