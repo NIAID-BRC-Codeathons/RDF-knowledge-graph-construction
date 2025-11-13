@@ -111,8 +111,8 @@ async def on_message(msg: cl.Message):
 async def set_starters():
     return [
         cl.Starter(
-            label="First 10 triples",
-            message="Show me the 10 first triples in the dataset",
+            label="List Pathogens",
+            message="What pathogens are available in the database",
         ),
         cl.Starter(
             label="MPox in UK",

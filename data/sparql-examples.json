@@ -5,7 +5,7 @@
   },
   {
     "question": "What pathogens are available in the database",
-    "query": "#+ endpoint: http://localhost:7000\nPREFIX schema: <https://schema.org/>\n PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n SELECT DISTINCT ?name \nWHERE\n { ?subject a schema:InfectiousDisease . \n?subject schema:additionalProperty ?additionalproperty . \n?subject schema:name ?name . \n}\n"
+    "query": "#+ endpoint: http://localhost:7007\nPREFIX schema: <https://schema.org/>\n PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n SELECT DISTINCT ?name \nWHERE\n { ?subject a schema:InfectiousDisease . \n?subject schema:additionalProperty ?additionalproperty . \n?subject schema:name ?name . \n}\n"
   }
 
 ]
