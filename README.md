@@ -17,7 +17,7 @@ The NIAID Bioinformatics Resource Centers (BRCs) invite researchers, data scient
 
 ## Getting Started
 
-![Pipeline PDN2RDF](http://url/to/img.png](https://github.com/NIAID-BRC-Codeathons/RDF-knowledge-graph-construction/blob/main/Pipeline_PDN2RDF.png)
+![Pipeline PDN2RDF](https://github.com/NIAID-BRC-Codeathons/RDF-knowledge-graph-construction/blob/main/Pipeline_PDN2RDF.png)
 
 ## Team 
 - Panayiotis Smeros: SIB Swiss Institute of Bioinformatics (panayiotis.smeros@sib.swiss)
