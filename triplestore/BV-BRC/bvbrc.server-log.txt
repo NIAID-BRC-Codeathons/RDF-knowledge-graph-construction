@@ -1,0 +1,33 @@
+2025-11-13 13:34:01.216 - INFO: [1mQLever Server, compiled on Wed Nov 12 15:33:30 UTC 2025 using git hash 8c99fe[22m
+2025-11-13 13:34:01.217 - INFO: Initializing server ...
+2025-11-13 13:34:01.217 - INFO: The git hash used to build this index was "8c99fe"
+2025-11-13 13:34:01.217 - INFO: Reading vocabulary from file bvbrc.vocabulary.words ...
+2025-11-13 13:34:01.217 - INFO: Done, number of words: 68,841
+2025-11-13 13:34:01.217 - INFO: Number of words in internal vocabulary (these are also part of the external vocabulary): 74
+2025-11-13 13:34:01.217 - INFO: Registered PSO permutation: #relations = 1, #blocks = 2, #triples = 53,499
+2025-11-13 13:34:01.217 - INFO: Registered PSO permutation: #relations = 11, #blocks = 10, #triples = 228,842
+2025-11-13 13:34:01.217 - INFO: Registered POS permutation: #relations = 1, #blocks = 2, #triples = 53,499
+2025-11-13 13:34:01.217 - INFO: Registered POS permutation: #relations = 11, #blocks = 10, #triples = 228,842
+2025-11-13 13:34:01.217 - INFO: Registered OPS permutation: #relations = 68,676, #blocks = 7, #triples = 228,842
+2025-11-13 13:34:01.217 - INFO: Registered OSP permutation: #relations = 68,676, #blocks = 7, #triples = 228,842
+2025-11-13 13:34:01.217 - INFO: Registered SPO permutation: #relations = 53,499, #blocks = 7, #triples = 228,842
+2025-11-13 13:34:01.217 - INFO: Registered SOP permutation: #relations = 53,499, #blocks = 7, #triples = 228,842
+2025-11-13 13:34:01.217 - INFO: Reading patterns from file bvbrc.index.patterns ...
+2025-11-13 13:34:01.217 - INFO: Sorting random result tables to estimate the sorting performance of this machine ...
+2025-11-13 13:34:01.218 - INFO: Access token for restricted API calls is ""
+2025-11-13 13:34:01.218 - INFO: The server is ready, listening for requests on port 7007 ...
+2025-11-13 13:34:01.228 - INFO: 
+2025-11-13 13:34:01.228 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
+2025-11-13 13:34:01.228 - INFO: Alive check with message "from the `qlever` CLI"
+2025-11-13 13:34:01.237 - INFO: 
+2025-11-13 13:34:01.237 - INFO: Request received via GET, no content type specified
+2025-11-13 13:34:01.237 - ERROR: Access token was provided but server was started without --access-token
+2025-11-13 13:34:01.244 - INFO: 
+2025-11-13 13:34:01.244 - INFO: Request received via GET, no content type specified
+2025-11-13 13:34:01.244 - ERROR: Access token was provided but server was started without --access-token
+2025-11-13 13:34:01.252 - INFO: 
+2025-11-13 13:34:01.252 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
+2025-11-13 13:34:01.252 - INFO: Processing command "cache-stats": get cache statistics
+2025-11-13 13:34:01.258 - INFO: 
+2025-11-13 13:34:01.258 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
+2025-11-13 13:34:01.258 - INFO: Processing command "get-settings": get server settings

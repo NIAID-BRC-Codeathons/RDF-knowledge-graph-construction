@@ -16,6 +16,13 @@ pd.set_option('display.max_colwidth', None)       # Show full content of each ce
 pd.set_option('display.width', None)              # Let pandas decide optimal width
 pd.set_option('display.expand_frame_repr', False) # Prevent line wrapping
 
+# Helper function to check if a value is valid (not null-like, NONE, empty, etc.)
+def is_valid_value(value):
+    if pd.isna(value):
+        return False
+    str_value = str(value).strip()
+    invalid_strings = ['', 'null', 'NONE', 'NaN', 'none']  # Add more if needed
+    return str_value not in invalid_strings
 
 def serviceCallByTaxonID(taxonID):
     # Make the API request
@@ -28,7 +35,7 @@ def serviceCallByTaxonID(taxonID):
         'query':  f'tax_eq({taxonID})',  # 'tag=\"pathogen:virus\"',  #'tax_eq(10244)',
         'fields': 'run_accession,experiment_title,tax_id,country,description',  #sequencing_longitude,sequencing_location',
         'format': 'tsv',
-        'limit': 50
+        'limit': 100
     }
 
     # Headers
@@ -81,19 +88,80 @@ def serviceCallByTaxonID(taxonID):
         # json_ld_doc["additionalProperty"][4]["value"] = str(row['description']) if pd.notna(row['description']) else ""
         # json_ld_doc["additionalProperty"][0]["value"]= str(row['country'])
 
-        json_ld_doc["@graph"][0]["name"] = pathogen_name
-        json_ld_doc["@graph"][0]["infectiousAgentClass"]["name"] = agent_name
+        # json_ld_doc["@graph"][0]["name"] = pathogen_name
+        # json_ld_doc["@graph"][0]["infectiousAgentClass"]["name"] = agent_name
+
+        if is_valid_value(pathogen_name):
+            json_ld_doc["@graph"][0]["name"] = pathogen_name
+        else:
+            json_ld_doc["@graph"][0].pop("name", None)
+
+        if is_valid_value(agent_name):
+            json_ld_doc["@graph"][0]["infectiousAgentClass"]["name"] = agent_name
+        else:
+            json_ld_doc["@graph"][0]["infectiousAgentClass"].pop("name", None)
+
+        # --------------------------------------------
+
 
         # matches for the Pathogen_schemav2
-        json_ld_doc["@graph"][1]["@id"] = "https://purl.uniprot.org/taxonomy/" + str(row['tax_id'])
-        json_ld_doc["@graph"][1]["name"] = "https://purl.uniprot.org/taxonomy/" + str(row['tax_id'])
-        json_ld_doc["@graph"][1]["identifier"] = "NCBI:txid" + str(row['tax_id'])
-        json_ld_doc["@graph"][0]["additionalProperty"][0]["value"] = str(row['run_accession'])
-        json_ld_doc["@graph"][0]["additionalProperty"][1]["value"] = str(row['experiment_title'])
-        json_ld_doc["@graph"][0]["additionalProperty"][2]["value"] = str(row['description']) if pd.notna(row['description']) else ""
-        json_ld_doc["@graph"][0]["spatialCoverage"]["name"] = str(row['country'])
-        json_ld_doc["@graph"][0]["spatialCoverage"]["@id"] = str(row['country'])
+        # json_ld_doc["@graph"][1]["@id"] = "https://purl.uniprot.org/taxonomy/" + str(row['tax_id'])
+        # json_ld_doc["@graph"][1]["name"] = "https://purl.uniprot.org/taxonomy/" + str(row['tax_id'])
+        # json_ld_doc["@graph"][1]["identifier"] = "NCBI:txid" + str(row['tax_id'])
+        # json_ld_doc["@graph"][0]["additionalProperty"][0]["value"] = str(row['run_accession'])
+        # json_ld_doc["@graph"][0]["additionalProperty"][1]["value"] = str(row['experiment_title'])
+        # json_ld_doc["@graph"][0]["additionalProperty"][2]["value"] = str(row['description']) if pd.notna(row['description']) else ""
+        # json_ld_doc["@graph"][0]["spatialCoverage"]["name"] = str(row['country'])
+        # json_ld_doc["@graph"][0]["spatialCoverage"]["@id"] = str(row['country'])
 
+        # matches for the Pathogen_schemav2
+        tax_id = row['tax_id']
+        if is_valid_value(tax_id):
+            json_ld_doc["@graph"][1]["@id"] = "https://purl.uniprot.org/taxonomy/" + str(tax_id)
+        else:
+            json_ld_doc["@graph"][1].pop("@id", None)
+
+        if is_valid_value(tax_id):
+            json_ld_doc["@graph"][1]["name"] = "https://purl.uniprot.org/taxonomy/" + str(tax_id)
+        else:
+            json_ld_doc["@graph"][1].pop("name", None)
+
+        if is_valid_value(tax_id):
+            json_ld_doc["@graph"][1]["identifier"] = "NCBI:txid" + str(tax_id)
+        else:
+            json_ld_doc["@graph"][1].pop("identifier", None)
+
+        run_accession = row['run_accession']
+        if is_valid_value(run_accession):
+            json_ld_doc["@graph"][0]["additionalProperty"][0]["value"] = str(run_accession)
+        else:
+            json_ld_doc["@graph"][0]["additionalProperty"][0].pop("value", None)
+
+        experiment_title = row['experiment_title']
+        if is_valid_value(experiment_title):
+            json_ld_doc["@graph"][0]["additionalProperty"][1]["value"] = str(experiment_title)
+        else:
+            json_ld_doc["@graph"][0]["additionalProperty"][1].pop("value", None)
+
+        description = row['description']
+        if pd.notna(description) and str(description).strip():
+            json_ld_doc["@graph"][0]["additionalProperty"][2]["value"] = str(description)
+        else:
+            json_ld_doc["@graph"][0]["additionalProperty"][2].pop("value", None)
+
+        country = row['country']
+        if is_valid_value(country):
+            json_ld_doc["@graph"][0]["spatialCoverage"]["name"] = str(country)
+        else:
+            json_ld_doc["@graph"][0]["spatialCoverage"].pop("name", None)
+
+        if is_valid_value(country):
+            json_ld_doc["@graph"][0]["spatialCoverage"]["@id"] = str(country)
+        else:
+            json_ld_doc["@graph"][0]["spatialCoverage"].pop("@id", None)
+
+
+        # --------------------------------------------
         # Convert JSON-LD to N-Quads
         nquads = jsonld.to_rdf(json_ld_doc, {'format': 'application/n-quads'})
 
@@ -119,23 +187,24 @@ def serviceCallByTaxonID(taxonID):
 
 def main() -> int:
 
-    # taxon_list = [127906, 3052460, 3052462, 186537, 3052464, 138950, 3052310, 694009, 3046277, 3052518, 10244, 37124, 632, 5500,
-    #  5820, 4827, 1773, 620, 3048459, 2955291, 10255, 11676, 2509494, 498019, 746128, 5476, 5480, 5482, 5478, 5658, 5806,
-    #  5741, 5811, 3052480, 485, 3052225, 562, 59201, 1313, 3052676, 3052345, 139, 3048448, 2955465, 2955744, 2955935,
-    #  12092, 1392, 11292, 3048158, 470, 520, 197, 813, 573, 727, 1496, 3049954, 1314, 11036, 66527, 88456, 5759, 5722,
-    #  5690, 5763, 234, 1352, 287, 1280, 11974, 777, 3052465, 263, 3052499, 171, 1126011, 10566, 1311, 160, 630, 5036,
-    #  38946, 37769, 5207, 41688, 41687, 5506, 4909, 42068, 37727, 6029, 100816, 1489895, 1489897, 159075, 563466, 5502,
-    #  487, 362532, 126728, 107386, 31276, 32597, 109871, 1357716, 112090, 157072, 2748958, 6210, 6211, 670, 943, 3052302,
-    #  3052307, 2169991, 3052314, 3052303, 3052317, 3052303, 3052300, 3052328, 1674146, 47466, 13373, 28450, 83554, 1491,
-    #  1513, 1717, 544, 547, 3048170, 3048170, 3048233, 3048287, 3052468, 3048443, 1980456, 3052485, 446, 2846071, 581,
-    #  583, 10294, 3050294, 3052223, 2971765, 3052385, 3052390, 3052409, 3052429, 3051992, 3052684, 2748958, 3052686,
-    #  138948, 138949, 138951, 147711, 147712, 463676, 780, 6181, 10912, 11021, 59301, 2169701, 11034, 11039, 6333, 613,
-    #  3052346, 3050271, 2034996, 84677, 3048357, 1274402, 2560405, 100217, 10492, 65424, 3050290, 37629, 342409, 222557,
-    #  3050355, 55987, 3052615, 12110, 1980917, 696863, 1980916, 3048455, 40051, 40054, 3349490, 282786]
+    taxon_list = [127906, 3052460, 3052462, 186537, 3052464, 138950, 3052310, 694009, 3046277, 3052518, 10244, 37124, 632, 5500,
+     5820, 4827, 1773, 620, 3048459, 2955291, 10255, 11676, 2509494, 498019, 746128, 5476, 5480, 5482, 5478, 5658, 5806,
+     5741, 5811, 3052480, 485, 3052225, 562, 59201, 1313, 3052676, 3052345, 139, 3048448, 2955465, 2955744, 2955935,
+     12092, 1392, 11292, 3048158, 470, 520, 197, 813, 573, 727, 1496, 3049954, 1314, 11036, 66527, 88456, 5759, 5722,
+     5690, 5763, 234, 1352, 287, 1280, 11974, 777, 3052465, 263, 3052499, 171, 1126011, 10566, 1311, 160, 630, 5036,
+     38946, 37769, 5207, 41688, 41687, 5506, 4909, 42068, 37727, 6029, 100816, 1489895, 1489897, 159075, 563466, 5502,
+     487, 362532, 126728, 107386, 31276, 32597, 109871, 1357716, 112090, 157072, 2748958, 6210, 6211, 670, 943, 3052302,
+     3052307, 2169991, 3052314, 3052303, 3052317, 3052303, 3052300, 3052328, 1674146, 47466, 13373, 28450, 83554, 1491,
+     1513, 1717, 544, 547, 3048170, 3048170, 3048233, 3048287, 3052468, 3048443, 1980456, 3052485, 446, 2846071, 581,
+     583, 10294, 3050294, 3052223, 2971765, 3052385, 3052390, 3052409, 3052429, 3051992, 3052684, 2748958, 3052686,
+     138948, 138949, 138951, 147711, 147712, 463676, 780, 6181, 10912, 11021, 59301, 2169701, 11034, 11039, 6333, 613,
+     3052346, 3050271, 2034996, 84677, 3048357, 1274402, 2560405, 100217, 10492, 65424, 3050290, 37629, 342409, 222557,
+     3050355, 55987, 3052615, 12110, 1980917, 696863, 1980916, 3048455, 40051, 40054, 3349490, 282786]
 
-    taxon_list = [127906, 3052460, 3052462, 186537, 3052464, 138950]
+    # taxon_list = [127906, 3052460, 3052462, 186537, 3052464, 138950]
 
-    for taxon in taxon_list:
+    for index, taxon in enumerate(taxon_list, 1):
+        print(f"\nProcessing taxon {index}/{len(taxon_list)}: {taxon}")
         serviceCallByTaxonID(taxon)
 
     return 0

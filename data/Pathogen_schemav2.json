@@ -8,15 +8,13 @@
     {
       "@id": "https://example.com/diseases/mpox",
       "@type": "InfectiousDisease",
-      "name": "MonkeyPox",
+      "name": "{MonkeyPox}",
       "description": "An infectious disease",
-      "sameAs": "https://en.wikipedia.org/wiki/Mpox",
       "infectiousAgentClass": {
         "@type": "InfectiousAgentClass",
         "name": "{Virus}",
         "description": "Infectious agent class for this disease."
       },
-      "url": "https://www.who.int/health-topics/mpox",
       "spatialCoverage": {
         "@id" : "http://example.com/location/{country}",
         "@type": "Place",

@@ -1,0 +1,19 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX schema: <https://schema.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT ?subject ?attribute ?value
+WHERE {
+    VALUES ?type { schema:InfectiousAgentClass schema:Place schema:Taxon}
+    ?subject a ?type .
+    ?subject a ?type .
+    BIND(rdf:type AS ?attribute)
+    BIND(?type AS ?value)
+
+    FILTER (
+        isIRI(?subject) &&
+        !isBlank(?subject)
+    )
+
+}

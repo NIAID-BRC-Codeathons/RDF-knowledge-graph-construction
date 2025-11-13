@@ -1,0 +1,17 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX epvoc: <https://data.europarl.europa.eu/def/epvoc#>
+PREFIX schema: <https://schema.org/>
+
+SELECT ?subject ?label
+
+WHERE {
+        OPTIONAL { ?subject foaf:name ?foafName }
+        OPTIONAL { ?subject skos:prefLabel ?prefLabel . FILTER(lang(?prefLabel) = "en" || lang(?prefLabel) = "") }
+        OPTIONAL { ?subject rdfs:label ?rdfsLabel . FILTER(lang(?rdfsLabel) = "en" || lang(?rdfsLabel) = "") }
+        OPTIONAL { ?subject schema:name ?sdoLabel . }
+
+        BIND(COALESCE(?foafName, ?prefLabel, ?rdfsLabel, ?sdoLabel) AS ?label)
+}
