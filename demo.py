@@ -45,12 +45,6 @@ client = OpenAI(
     api_key="."
 )
 
-client.chat.completions.create(
-   model="gpt-4o",
-    messages=[{"role": "user", "content": "Hi there!"}],
-    stream=True,
-)
-
 def execute_query(last_msg: str) -> list[dict[str, str]]:
     """Extract SPARQL query from markdown and execute it."""
     for extracted_query in extract_sparql_queries(last_msg):
@@ -75,9 +69,11 @@ async def on_message(msg: cl.Message):
         answer = cl.Message(content="")
 
         response = client.chat.completions.create(
-            model="gpt-4o-mini",  # model name may vary depending on server
+            model="gpt5",
             messages=messages,
             stream=True,
+            temperature=0.0,
+            seed=42,
         )
 
         for r in response:
@@ -112,10 +108,10 @@ async def set_starters():
     return [
         cl.Starter(
             label="List Pathogens",
-            message="What pathogens are available in the database",
+            message="Provide an exhaustive list of all the pathogens you are aware of and classify them",
         ),
         cl.Starter(
-            label="MPox in UK",
-            message="Find all the genomics sequences of MPox in UK in 2025",
+            label="Pathogens in China",
+            message="Provide an exhaustive list of the pathogens in China",
         ),
     ]

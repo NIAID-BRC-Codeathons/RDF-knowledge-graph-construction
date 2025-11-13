@@ -1,17 +1,12 @@
 [
   {
-    "question": "Show me the 10 first triples in the dataset",
-    "query": "#+ endpoint: http://localhost:7007\nSELECT * WHERE {\n ?s ?p ?o . \n} LIMIT 100"
-  },
-  {
-    "question": "What pathogens are available in the database",
+    "question": "Provide an exhaustive list of all the pathogens you are aware of and classify them",
     "query": "#+ endpoint: http://localhost:7007\nPREFIX schema: <https://schema.org/>\n PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n SELECT DISTINCT ?name \nWHERE\n { ?subject a schema:InfectiousDisease . \n?subject schema:additionalProperty ?additionalproperty . \n?subject schema:name ?name . \n}\n"
   },
    {
-    "question": "What data is available for pathogens in China",
+    "question": "Provide an exhaustive list of the pathogens in China",
     "query": "#+ endpoint: http://localhost:7007\nPREFIX schema: <https://schema.org/>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n\nSELECT ?name\nWHERE {\n    ?subject a schema:InfectiousDisease .\n    ?subject schema:additionalProperty ?additionalproperty .\n    ?subject schema:name ?name .\n\n    ?subject schema:spatialCoverage ?spatialcoverage .\n    ?spatialcoverage schema:name ?spatial_name .\n    FILTER (REGEX(?spatial_name, \"China\"))\n\n}\nGROUP BY ?name"
   }
-
 ]
 
 
