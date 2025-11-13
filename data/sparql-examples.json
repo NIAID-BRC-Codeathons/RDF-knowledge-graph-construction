@@ -6,8 +6,11 @@
   {
     "question": "What pathogens are available in the database",
     "query": "#+ endpoint: http://localhost:7000\nPREFIX schema: <https://schema.org/>\n PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n SELECT DISTINCT ?name \nWHERE\n { ?subject a schema:InfectiousDisease . \n?subject schema:additionalProperty ?additionalproperty . \n?subject schema:name ?name . \n}\n"
+  },
+  {
+    "question": "What data on pathogens in China are available",
+    "query": "#+ endpoint: http://localhost:7000\nPREFIX schema: <https://schema.org/>\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\nSELECT ?name\nWHERE {\n    ?subject a schema:InfectiousDisease .\n    ?subject schema:additionalProperty ?additionalproperty .\n    ?subject schema:name ?name .\n    ?subject schema:spatialCoverage ?spatialcoverage .\n    ?spatialcoverage schema:name ?spatial_name .\n    FILTER (REGEX(?spatial_name, \"China\"))\n}\nGROUP BY ?name"
   }
-
 ]
 
 
