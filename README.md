@@ -19,9 +19,7 @@ The NIAID Bioinformatics Resource Centers (BRCs) invite researchers, data scient
 
 *Team members: Add your project setup instructions here.*
 
-## Team
-
-*Team members:
+## Team 
 - Panayiotis Smeros: SIB Swiss Institute of Bioinformatics (panayiotis.smeros@sib.swiss)
 - Imane Lboukili: SIB Swiss Institute of Bioinformatics (PDN) (imane.lboukili@sib.swiss)
 - Douglas Fils: San Diego Super Computer Center (dfils@sdsc.edu)
