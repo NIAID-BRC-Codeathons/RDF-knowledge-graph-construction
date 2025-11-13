@@ -1,33 +1,33 @@
-_:b0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/InfectiousDisease> .
-_:b0 <https://schema.org/additionalProperty> _:b1 .
-_:b0 <https://schema.org/additionalProperty> _:b2 .
-_:b0 <https://schema.org/additionalProperty> _:b3 .
-_:b0 <https://schema.org/additionalProperty> _:b4 .
-_:b0 <https://schema.org/additionalProperty> _:b5 .
-_:b0 <https://schema.org/description> "An infectious disease" .
-_:b0 <https://schema.org/infectiousAgentClass> _:b6 .
-_:b0 <https://schema.org/name> "MonkeyPox" .
-_:b0 <https://schema.org/sameAs> "https://en.wikipedia.org/wiki/Mpox" .
-_:b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
-_:b1 <https://schema.org/description> "Country where sample was collected." .
-_:b1 <https://schema.org/propertyID> "country" .
-_:b1 <https://schema.org/value> "United Kingdom" .
-_:b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
-_:b2 <https://schema.org/description> "Taxon ID for this infectious agent class." .
-_:b2 <https://schema.org/propertyID> "taxon_id" .
-_:b2 <https://schema.org/value> "https://purl.uniprot.org/taxonomy/10244" .
-_:b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
-_:b3 <https://schema.org/description> "Unique identifier assigned to a specific set of raw sequencing data files from a single sequencing event." .
-_:b3 <https://schema.org/propertyID> "run_accession" .
-_:b3 <https://schema.org/value> "SRR19428466" .
-_:b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
-_:b4 <https://schema.org/description> "Brief, descriptive, human-readable title for a specific sequencing experiment." .
-_:b4 <https://schema.org/propertyID> "experiment_title" .
-_:b4 <https://schema.org/value> "GridION sequencing: Metagenomics of blister fluid: Monkeypox virus reads" .
-_:b5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
-_:b5 <https://schema.org/description> "A human-readable description of the sample." .
-_:b5 <https://schema.org/propertyID> "sample_description" .
-_:b5 <https://schema.org/value> "GridION sequencing: Metagenomics of blister fluid: Monkeypox virus reads" .
-_:b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/InfectiousAgentClass> .
-_:b6 <https://schema.org/description> "Infectious agent class for this disease." .
-_:b6 <https://schema.org/name> "{Virus}" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N6caf0495c6d044ecb67d357f3933eb23> <https://schema.org/value> "https://purl.uniprot.org/taxonomy/10244" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N7e2ef598fabd4a9298533dd06a6d3187> <https://schema.org/propertyID> "run_accession" .
+<https://rdflib.github.io/.well-known/genid/rdflib/Nb2891df8e8424c9ebff76a95b452ab52> <https://schema.org/description> "A human-readable description of the sample." .
+<https://rdflib.github.io/.well-known/genid/rdflib/N3c772b3615854b7ca810c06e8c693224> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N3c772b3615854b7ca810c06e8c693224> <https://schema.org/description> "Country where sample was collected." .
+<https://rdflib.github.io/.well-known/genid/rdflib/N79fa65fbc98a4fb5bd6dd58d10a5bc43> <https://schema.org/value> "GridION sequencing: Metagenomics of blister fluid: Monkeypox virus reads" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <https://schema.org/infectiousAgentClass> <https://rdflib.github.io/.well-known/genid/rdflib/N40c72306766e42fcb8f7e5ae96733fb5> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/InfectiousDisease> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N40c72306766e42fcb8f7e5ae96733fb5> <https://schema.org/description> "Infectious agent class for this disease." .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <https://schema.org/name> "MonkeyPox" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N79fa65fbc98a4fb5bd6dd58d10a5bc43> <https://schema.org/propertyID> "experiment_title" .
+<https://rdflib.github.io/.well-known/genid/rdflib/Nb2891df8e8424c9ebff76a95b452ab52> <https://schema.org/value> "GridION sequencing: Metagenomics of blister fluid: Monkeypox virus reads" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N79fa65fbc98a4fb5bd6dd58d10a5bc43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N7e2ef598fabd4a9298533dd06a6d3187> <https://schema.org/value> "SRR19428466" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N3c772b3615854b7ca810c06e8c693224> <https://schema.org/value> "United Kingdom" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <https://schema.org/additionalProperty> <https://rdflib.github.io/.well-known/genid/rdflib/N6caf0495c6d044ecb67d357f3933eb23> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <https://schema.org/additionalProperty> <https://rdflib.github.io/.well-known/genid/rdflib/N79fa65fbc98a4fb5bd6dd58d10a5bc43> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <https://schema.org/sameAs> "https://en.wikipedia.org/wiki/Mpox" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <https://schema.org/additionalProperty> <https://rdflib.github.io/.well-known/genid/rdflib/N7e2ef598fabd4a9298533dd06a6d3187> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <https://schema.org/additionalProperty> <https://rdflib.github.io/.well-known/genid/rdflib/Nb2891df8e8424c9ebff76a95b452ab52> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N6caf0495c6d044ecb67d357f3933eb23> <https://schema.org/description> "Taxon ID for this infectious agent class." .
+<https://rdflib.github.io/.well-known/genid/rdflib/Nb2891df8e8424c9ebff76a95b452ab52> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N40c72306766e42fcb8f7e5ae96733fb5> <https://schema.org/name> "{Virus}" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N6caf0495c6d044ecb67d357f3933eb23> <https://schema.org/propertyID> "taxon_id" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <https://schema.org/additionalProperty> <https://rdflib.github.io/.well-known/genid/rdflib/N3c772b3615854b7ca810c06e8c693224> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N79fa65fbc98a4fb5bd6dd58d10a5bc43> <https://schema.org/description> "Brief, descriptive, human-readable title for a specific sequencing experiment." .
+<https://rdflib.github.io/.well-known/genid/rdflib/N3c772b3615854b7ca810c06e8c693224> <https://schema.org/propertyID> "country" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N6caf0495c6d044ecb67d357f3933eb23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N4f597c91cd9d4444a063373af061c247> <https://schema.org/description> "An infectious disease" .
+<https://rdflib.github.io/.well-known/genid/rdflib/Nb2891df8e8424c9ebff76a95b452ab52> <https://schema.org/propertyID> "sample_description" .
+<https://rdflib.github.io/.well-known/genid/rdflib/N7e2ef598fabd4a9298533dd06a6d3187> <https://schema.org/description> "Unique identifier assigned to a specific set of raw sequencing data files from a single sequencing event." .
+<https://rdflib.github.io/.well-known/genid/rdflib/N7e2ef598fabd4a9298533dd06a6d3187> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/PropertyValue> .
+<https://rdflib.github.io/.well-known/genid/rdflib/N40c72306766e42fcb8f7e5ae96733fb5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/InfectiousAgentClass> .

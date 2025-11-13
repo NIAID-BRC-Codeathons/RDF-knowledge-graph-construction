@@ -5,7 +5,7 @@
 # removed from ui section: UI_CONFIG = XYZ
 
 [data]
-NAME              = decoder
+NAME              = bvbrc
 BASE_URL          = https://example.org/hackathon
 GET_DATA_CMD      = cp ../../data/output/*.nt ./data
 DESCRIPTION       = BVBRC metadata ${BASE_URL}

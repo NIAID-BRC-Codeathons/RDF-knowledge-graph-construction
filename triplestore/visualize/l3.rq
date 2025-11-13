@@ -1,0 +1,15 @@
+PREFIX schema: <https://schema.org/>
+
+SELECT ?subject ?edge ?object
+WHERE {
+    VALUES ?type { schema:InfectiousDisease schema:InfectiousAgentClass schema:PropertyValue}
+    ?subject a ?type .
+    ?object a ?type .
+    {
+        ?subject ?edge ?object .
+    } UNION {
+        ?subject ?edge1 ?intermediate .
+        ?intermediate ?edge2 ?object .
+        BIND (CONCAT(STR(?edge1), "/", STR(?edge2)) AS ?edge)
+    }
+}

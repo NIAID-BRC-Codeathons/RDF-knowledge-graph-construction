@@ -1,0 +1,39 @@
+{
+  "@context": [
+    "https://schema.org"
+
+  ],
+  "@graph": [
+    {
+      "@type": "InfectiousDisease",
+      "@id": "https://example.com/diseases/covid-19",
+      "name": "COVID-19",
+      "description": "A respiratory illness caused by the SARS-CoV-2 virus.",
+      "infectiousAgent": "SARS-CoV-2",
+      "infectiousAgentClass": "prt:Virus",
+      "transmissionMethod": "Airborne transmission via respiratory droplets.",
+      "url": "https://www.who.int/health-topics/coronavirus",
+      "sameAs": "https://www.wikidata.org/wiki/Q84263196"
+    },
+    {
+      "@type": ["Taxon", "BioChemEntity"],
+      "@id": "https://example.com/taxa/sars-cov-2",
+      "name": "SARS-CoV-2",
+      "taxonRank": {
+        "@type": "PropertyValue",
+        "name": "species",
+        "value": "http://purl.obolibrary.org/obo/NCIT_C130964"
+      },
+      "parentTaxon": {
+        "@type": "Taxon",
+        "name": "Severe acute respiratory syndrome-related coronavirus"
+      },
+      "identifier": "NCBI:txid2697049",
+      "url": "https://www.ncbi.nlm.nih.gov/taxonomy/2697049",
+      "sameAs": "https://www.wikidata.org/wiki/Q82069695",
+      "associatedDisease": {
+        "@id": "https://example.com/diseases/covid-19"
+      }
+    }
+  ]
+}
