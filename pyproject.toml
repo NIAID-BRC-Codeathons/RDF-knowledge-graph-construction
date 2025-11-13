@@ -12,5 +12,5 @@ dependencies = [
     "requests>=2.32.5",
     "openai >=2.7.2",
     "chainlit >=2.8.1",
-    "sparql_llm >=0.1.2",    
+    "sparql_llm >=0.1.2",
 ]

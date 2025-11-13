@@ -3,11 +3,17 @@ import chainlit as cl
 from sparql_llm.validate_sparql import extract_sparql_queries
 from sparql_llm.utils import query_sparql
 import json
+from pathlib import Path
 
-example_queries = """
-"""
-schema_info = """
-"""
+PATHOGEN_SCHEMA_FILE = Path("data", "Pathogen_schemav2.json")
+EXAMPLE_FILE = Path("data", "sparql-examples.json")
+
+
+with PATHOGEN_SCHEMA_FILE.open("r", encoding="utf-8") as f:
+    schema_info = json.dumps(json.load(f), indent=2)
+with EXAMPLE_FILE.open("r", encoding="utf-8") as f:
+    example_queries = json.dumps(json.load(f), indent=2)
+
 
 RAG_PROMPT = f"""
 You are an assistant that helps users formulate SPARQL queries to be executed on a SPARQL endpoint.
@@ -30,17 +36,17 @@ If the information provided in the examples above is not sufficient to answer th
 {schema_info}
 """
 
-# url = "http://lambda5.cels.anl.gov:44497/v1"
+url = "http://lambda5.cels.anl.gov:44497/v1"
 # url = "https://argo-bridge.cels.anl.gov"
 
 # Initialize the client with custom base URL and API key
 client = OpenAI(
-    # base_url=url,
-    # api_key="."
+    base_url=url,
+    api_key="."
 )
 
 client.chat.completions.create(
-   model="gpt-4o-mini",
+   model="gpt-4o",
     messages=[{"role": "user", "content": "Hi there!"}],
     stream=True,
 )
@@ -87,19 +93,29 @@ async def on_message(msg: cl.Message):
         query_res = execute_query(answer.content)
         if len(query_res) < 1:
             print("⚠️ No results, trying to fix")
-            messages.append(("user", f"""The query you provided returned no results, please fix the query:\n\n{answer.content}"""))
+            messages = [
+                {"role": "user", "content": f"""The query you provided returned no results, please fix the query:\n\n{answer.content}"""},
+                *cl.chat_context.to_openai(),
+            ]
         else:
             print(f"✅ Got {len(query_res)} results! Summarizing them, then stopping the chat")
             async with cl.Step(name=f"{len(query_res)} query results ✨") as step:
                 step.output = f"```json\n{json.dumps(query_res, indent=2)}\n```"
-            messages.append(("user", f"""The query you provided returned these results, summarize them:\n\n{json.dumps(query_res, indent=2)}"""))
+            messages = [
+                {"role": "user", "content": f"""The query you provided returned these results, summarize them:\n\n{json.dumps(query_res, indent=2)}"""},
+                *cl.chat_context.to_openai(),
+            ]
             query_success = True
 
 @cl.set_starters
 async def set_starters():
     return [
         cl.Starter(
-            label="Rat orthologs",
-            message="What are the rat orthologs of human TP53?",
+            label="First 10 triples",
+            message="Show me the 10 first triples in the dataset",
+        ),
+        cl.Starter(
+            label="MPox in UK",
+            message="Find all the genomics sequences of MPox in UK in 2025",
         ),
     ]
