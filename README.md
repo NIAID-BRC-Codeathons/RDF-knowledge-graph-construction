@@ -15,9 +15,13 @@ This is a project from the **NIAID BRC AI Codeathon 2025**, taking place Novembe
 
 The NIAID Bioinformatics Resource Centers (BRCs) invite researchers, data scientists, and developers to a three-day AI Codeathon focused on improving Findability, Accessibility, Interoperability, and Reusability ($
 
-## Getting Started
+## PDN2RDF MVP Pipeline
 
 ![Pipeline PDN2RDF](https://github.com/NIAID-BRC-Codeathons/RDF-knowledge-graph-construction/blob/main/Pipeline_PDN2RDF.png)
+
+### How to use the PDN2RDF MVP Pipeline
+
+insert text
 
 ## Team 
 - Panayiotis Smeros: SIB Swiss Institute of Bioinformatics (panayiotis.smeros@sib.swiss)
