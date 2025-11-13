@@ -1,6 +1,7 @@
 PREFIX schema: <https://schema.org/>
 
-SELECT DISTINCT ?subject ?type
+SELECT DISTINCT ?name
 WHERE {
-  ?subject schema:additionalProperty ?type .
+  ?subject schema:spatialCoverage ?sc .
+  ?sc schema:name ?name
 }

@@ -18,6 +18,7 @@
       },
       "url": "https://www.who.int/health-topics/mpox",
       "spatialCoverage": {
+        "@id" : "http://example.com/location/{country}",
         "@type": "Place",
         "name": "{country}"
       },
@@ -49,16 +50,11 @@
       ],
       "@id": "https://purl.uniprot.org/taxonomy/{tax_id}",
       "name": "https://purl.uniprot.org/taxonomy/{tax_id}",
-      "taxonRank": {
-        "@type": "PropertyValue",
-        "name": "species",
-        "value": "TODO_http://purl.obolibrary.org/obo/NCIT_C130964"
-      },
       "parentTaxon": {
         "@type": "Taxon",
         "name": "An infectious disease"
       },
-      "identifier": "TODO_NCBI:txid2697049",
+      "identifier": "NCBI:txid{tax_id}",
       "associatedDisease": {
         "@id": "https://example.com/diseases/mpox"
       }

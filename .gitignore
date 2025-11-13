@@ -21,3 +21,4 @@ __pycache__/
 #Chainlit
 .chainlit
 chainlit.md
+/data/output/

@@ -2,9 +2,16 @@ import requests
 import pandas as pd
 from io import StringIO
 import os
+import sys
 import json
 from pyld import jsonld
 from rdflib import Graph
+
+from defs import Tool_Pathogen_Class
+
+res = Tool_Pathogen_Class.get_pathogen_class("mpox")
+
+print(res)
 
 pd.set_option('display.max_columns', None)        # Show all columns
 pd.set_option('display.max_rows', None)           # Show all rows (use with caution if large)
@@ -71,7 +78,7 @@ os.makedirs(output_dir, exist_ok=True)
 
 
 # Read JSON-LD template from file
-template_file = "./data/Pathogen_schema.json"  # You can change this path as needed
+template_file = "./data/Pathogen_schemav2.json"  # You can change this path as needed
 with open(template_file, 'r', encoding='utf-8') as f:
     json_ld_template = json.load(f)
 
@@ -87,11 +94,23 @@ for index, row in df.iterrows():
     # json_ld_doc["subjectOf"][0]["description"] = str(row['description']) if pd.notna(row['description']) else ""
     # json_ld_doc["subjectOf"][0]["spatialCoverage"]["name"] = str(row['country'])
 
-    json_ld_doc["additionalProperty"][1]["value"] =  "https://purl.uniprot.org/taxonomy/" + str(row['tax_id'])
-    json_ld_doc["additionalProperty"][2]["value"] = str(row['run_accession'])
-    json_ld_doc["additionalProperty"][3]["value"] = str(row['experiment_title'])
-    json_ld_doc["additionalProperty"][4]["value"] = str(row['description']) if pd.notna(row['description']) else ""
-    json_ld_doc["additionalProperty"][0]["value"]= str(row['country'])
+    # matches for the Pathogen_schema
+    # json_ld_doc["additionalProperty"][1]["value"] =  "https://purl.uniprot.org/taxonomy/" + str(row['tax_id'])
+    # json_ld_doc["additionalProperty"][2]["value"] = str(row['run_accession'])
+    # json_ld_doc["additionalProperty"][3]["value"] = str(row['experiment_title'])
+    # json_ld_doc["additionalProperty"][4]["value"] = str(row['description']) if pd.notna(row['description']) else ""
+    # json_ld_doc["additionalProperty"][0]["value"]= str(row['country'])
+
+    # matches for the Pathogen_schemav2
+    json_ld_doc["@graph"][1]["@id"] = "https://purl.uniprot.org/taxonomy/" + str(row['tax_id'])
+    json_ld_doc["@graph"][1]["name"] = "https://purl.uniprot.org/taxonomy/" + str(row['tax_id'])
+    json_ld_doc["@graph"][1]["identifier"] = "NCBI:txid" + str(row['tax_id'])
+
+    json_ld_doc["@graph"][0]["additionalProperty"][0]["value"] = str(row['run_accession'])
+    json_ld_doc["@graph"][0]["additionalProperty"][1]["value"] = str(row['experiment_title'])
+    json_ld_doc["@graph"][0]["additionalProperty"][2]["value"] = str(row['description']) if pd.notna(row['description']) else ""
+    json_ld_doc["@graph"][0]["spatialCoverage"]["name"] = str(row['country'])
+    json_ld_doc["@graph"][0]["spatialCoverage"]["@id"] = str(row['country'])
 
     # # Convert JSON-LD to N-Triples
     # ntriples = jsonld.to_rdf(json_ld_doc, {'format': 'application/n-quads'})
