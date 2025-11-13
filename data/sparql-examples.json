@@ -1,0 +1,6 @@
+[
+  {
+    "question": "Show me the 10 first triples in the dataset",
+    "query": "#+ endpoint: http://localhost:7007\nSELECT * WHERE {\n ?s ?p ?o . \n} LIMIT 100"
+  }
+]
