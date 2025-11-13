@@ -1,3 +1,4 @@
+
 # RDF Knowledge Graph Construction
 
 Transforming Pathogen Data Network Resources to RDF using Large Language Models
@@ -12,7 +13,7 @@ This is a project from the **NIAID BRC AI Codeathon 2025**, taking place Novembe
 
 ## Codeathon Goals
 
-The NIAID Bioinformatics Resource Centers (BRCs) invite researchers, data scientists, and developers to a three-day AI Codeathon focused on improving Findability, Accessibility, Interoperability, and Reusability (FAIR-ness) of BRC data and tools using artificial intelligence (AI) and large language models (LLMs).
+The NIAID Bioinformatics Resource Centers (BRCs) invite researchers, data scientists, and developers to a three-day AI Codeathon focused on improving Findability, Accessibility, Interoperability, and Reusability ($
 
 ## Getting Started
 
@@ -20,8 +21,14 @@ The NIAID Bioinformatics Resource Centers (BRCs) invite researchers, data scient
 
 ## Team
 
-*Team members: Add your team information here.*
+*Team members:
+- Panayiotis Smeros: SIB Swiss Institute of Bioinformatics (panayiotis.smeros@sib.swiss)
+- Imane Lboukili: SIB Swiss Institute of Bioinformatics (PDN) (imane.lboukili@sib.swiss)
+- Douglas Fils: San Diego Super Computer Center (dfils@sdsc.edu)
+- David (Yu) Yuan: EMBL's European Bionformatics Institute (davidyuan@ebi.ac.uk)
+- Senthilnathan Vijayaraja: EMBL's European Bionformatics Institute (vijayaraja@ebi.ac.uk)
 
 ## License
 
-*To be determined by the team.*
+This work is under the Apache 2.0 license.
+
