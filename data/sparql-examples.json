@@ -2,5 +2,12 @@
   {
     "question": "Show me the 10 first triples in the dataset",
     "query": "#+ endpoint: http://localhost:7007\nSELECT * WHERE {\n ?s ?p ?o . \n} LIMIT 100"
+  },
+  {
+    "question": "What pathogens are available in the database",
+    "query": "#+ endpoint: http://localhost:7000\nPREFIX schema: <https://schema.org/>\n PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n SELECT DISTINCT ?name \nWHERE\n { ?subject a schema:InfectiousDisease . \n?subject schema:additionalProperty ?additionalproperty . \n?subject schema:name ?name . \n}\n"
   }
+
 ]
+
+
