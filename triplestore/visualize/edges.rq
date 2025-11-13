@@ -6,14 +6,14 @@ SELECT ?subject ?edge ?object
 WHERE {
     VALUES ?type { schema:InfectiousAgentClass schema:Place schema:Taxon}
 
-      ?subject a ?type .
-  ?object a ?type .
-  ?subject ?edge ?object .
+    ?subject a ?type .
+    ?object a ?type .
+    ?subject ?edge ?object .
 
- FILTER(
-         isIRI(?subject) &&
-    !isBlank(?subject) &&
-         isIRI(?object) &&
-    !isBlank(?object)
+    FILTER (
+        isIRI(?subject) &&
+        !isBlank(?subject) &&
+        isIRI(?object) &&
+        !isBlank(?object)
     )
 }

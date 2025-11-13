@@ -15,5 +15,4 @@ WHERE {
         isIRI(?subject) &&
         !isBlank(?subject)
     )
-
 }

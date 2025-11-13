@@ -1,15 +1,16 @@
-# Triplestore work around Qlever
+# Triplestore 
 
 
-## Commands
+## Commands for running Qlever instance
 
-Do not run get data unless you need to build a new index
+These need to be run from  ./triplestore/BV-BRC
 
+**Do not run get data unless you need to build a new index**
 ```bash
 qlever get-data
 ```
 
-Do not run index unless you need to build a new index
+**Do not run index unless you need to build a new index**
 ```bash
 qlever index --overwrite-existing
 ```
@@ -25,11 +26,3 @@ qlever stop
 ```bash
 qlever ui
 ```
-
-
-
-
-## Notes
-
-The structured data graph (sdg) and the lexical graph (lg) 
-will connect on run_accession.  

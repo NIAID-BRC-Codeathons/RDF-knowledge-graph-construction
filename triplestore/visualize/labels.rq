@@ -6,11 +6,11 @@ SELECT ?subject ?label
 
 WHERE {
     VALUES ?type { schema:InfectiousAgentClass schema:Place schema:Taxon}
-        ?subject a ?type .
-        ?subject schema:name ?label .
+    ?subject a ?type .
+    ?subject schema:name ?label .
 
- FILTER(
-                 isIRI(?subject) &&
-    !isBlank(?subject)
+    FILTER (
+        isIRI(?subject) &&
+        !isBlank(?subject)
     )
 }

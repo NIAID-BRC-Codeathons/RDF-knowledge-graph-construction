@@ -6,6 +6,7 @@ import sys
 import json
 from pyld import jsonld
 from rdflib import Graph
+import re
 
 from defs import Tool_Pathogen_Name_from_Taxon_ID
 from defs import Tool_Pathogen_Class
@@ -15,6 +16,17 @@ pd.set_option('display.max_rows', None)           # Show all rows (use with caut
 pd.set_option('display.max_colwidth', None)       # Show full content of each cell
 pd.set_option('display.width', None)              # Let pandas decide optimal width
 pd.set_option('display.expand_frame_repr', False) # Prevent line wrapping
+
+
+# Helper function to lower cases and remove special characters from a string
+def clean_string(s):
+    if not isinstance(s, str):
+        return ""
+    # Make lowercase
+    s = s.lower()
+    # Remove spaces and special characters (keep only alphanumeric)
+    s = re.sub(r'[^a-z0-9]', '', s)
+    return s
 
 # Helper function to check if a value is valid (not null-like, NONE, empty, etc.)
 def is_valid_value(value):
@@ -69,6 +81,7 @@ def serviceCallByTaxonID(taxonID):
 
     pathogen_name = Tool_Pathogen_Name_from_Taxon_ID.get_pathogen_name_by_taxon_id(taxonID)
     agent_name = Tool_Pathogen_Class.get_pathogen_class(pathogen_name)
+    pathogen_name_clean = clean_string(pathogen_name)
 
     for index, row in df.iterrows():
         # Create a copy of the template
@@ -90,6 +103,10 @@ def serviceCallByTaxonID(taxonID):
 
         # json_ld_doc["@graph"][0]["name"] = pathogen_name
         # json_ld_doc["@graph"][0]["infectiousAgentClass"]["name"] = agent_name
+
+        # set the relation URI between the graphs
+        json_ld_doc["@graph"][0]["@id"] = "https://example.com/diseases/" + str(pathogen_name_clean)
+        json_ld_doc["@graph"][1]["associatedDisease"]["@id"] = "https://example.com/diseases/" + str(pathogen_name_clean)
 
         if is_valid_value(pathogen_name):
             json_ld_doc["@graph"][0]["name"] = pathogen_name

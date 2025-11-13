@@ -1,33 +1,1278 @@
-2025-11-13 13:34:01.216 - INFO: [1mQLever Server, compiled on Wed Nov 12 15:33:30 UTC 2025 using git hash 8c99fe[22m
-2025-11-13 13:34:01.217 - INFO: Initializing server ...
-2025-11-13 13:34:01.217 - INFO: The git hash used to build this index was "8c99fe"
-2025-11-13 13:34:01.217 - INFO: Reading vocabulary from file bvbrc.vocabulary.words ...
-2025-11-13 13:34:01.217 - INFO: Done, number of words: 68,841
-2025-11-13 13:34:01.217 - INFO: Number of words in internal vocabulary (these are also part of the external vocabulary): 74
-2025-11-13 13:34:01.217 - INFO: Registered PSO permutation: #relations = 1, #blocks = 2, #triples = 53,499
-2025-11-13 13:34:01.217 - INFO: Registered PSO permutation: #relations = 11, #blocks = 10, #triples = 228,842
-2025-11-13 13:34:01.217 - INFO: Registered POS permutation: #relations = 1, #blocks = 2, #triples = 53,499
-2025-11-13 13:34:01.217 - INFO: Registered POS permutation: #relations = 11, #blocks = 10, #triples = 228,842
-2025-11-13 13:34:01.217 - INFO: Registered OPS permutation: #relations = 68,676, #blocks = 7, #triples = 228,842
-2025-11-13 13:34:01.217 - INFO: Registered OSP permutation: #relations = 68,676, #blocks = 7, #triples = 228,842
-2025-11-13 13:34:01.217 - INFO: Registered SPO permutation: #relations = 53,499, #blocks = 7, #triples = 228,842
-2025-11-13 13:34:01.217 - INFO: Registered SOP permutation: #relations = 53,499, #blocks = 7, #triples = 228,842
-2025-11-13 13:34:01.217 - INFO: Reading patterns from file bvbrc.index.patterns ...
-2025-11-13 13:34:01.217 - INFO: Sorting random result tables to estimate the sorting performance of this machine ...
-2025-11-13 13:34:01.218 - INFO: Access token for restricted API calls is ""
-2025-11-13 13:34:01.218 - INFO: The server is ready, listening for requests on port 7007 ...
-2025-11-13 13:34:01.228 - INFO: 
-2025-11-13 13:34:01.228 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
-2025-11-13 13:34:01.228 - INFO: Alive check with message "from the `qlever` CLI"
-2025-11-13 13:34:01.237 - INFO: 
-2025-11-13 13:34:01.237 - INFO: Request received via GET, no content type specified
-2025-11-13 13:34:01.237 - ERROR: Access token was provided but server was started without --access-token
-2025-11-13 13:34:01.244 - INFO: 
-2025-11-13 13:34:01.244 - INFO: Request received via GET, no content type specified
-2025-11-13 13:34:01.244 - ERROR: Access token was provided but server was started without --access-token
-2025-11-13 13:34:01.252 - INFO: 
-2025-11-13 13:34:01.252 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
-2025-11-13 13:34:01.252 - INFO: Processing command "cache-stats": get cache statistics
-2025-11-13 13:34:01.258 - INFO: 
-2025-11-13 13:34:01.258 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
-2025-11-13 13:34:01.258 - INFO: Processing command "get-settings": get server settings
+2025-11-13 15:06:27.088 - INFO: [1mQLever Server, compiled on Wed Nov 12 15:33:30 UTC 2025 using git hash 8c99fe[22m
+2025-11-13 15:06:27.088 - INFO: Initializing server ...
+2025-11-13 15:06:27.089 - INFO: The git hash used to build this index was "8c99fe"
+2025-11-13 15:06:27.089 - INFO: Reading vocabulary from file bvbrc.vocabulary.words ...
+2025-11-13 15:06:27.089 - INFO: Done, number of words: 68,985
+2025-11-13 15:06:27.089 - INFO: Number of words in internal vocabulary (these are also part of the external vocabulary): 74
+2025-11-13 15:06:27.089 - INFO: Registered PSO permutation: #relations = 1, #blocks = 2, #triples = 53,643
+2025-11-13 15:06:27.089 - INFO: Registered PSO permutation: #relations = 11, #blocks = 10, #triples = 229,224
+2025-11-13 15:06:27.089 - INFO: Registered POS permutation: #relations = 1, #blocks = 2, #triples = 53,643
+2025-11-13 15:06:27.089 - INFO: Registered POS permutation: #relations = 11, #blocks = 10, #triples = 229,224
+2025-11-13 15:06:27.089 - INFO: Registered OPS permutation: #relations = 68,820, #blocks = 7, #triples = 229,224
+2025-11-13 15:06:27.089 - INFO: Registered OSP permutation: #relations = 68,820, #blocks = 7, #triples = 229,224
+2025-11-13 15:06:27.089 - INFO: Registered SPO permutation: #relations = 53,643, #blocks = 5, #triples = 229,224
+2025-11-13 15:06:27.089 - INFO: Registered SOP permutation: #relations = 53,643, #blocks = 5, #triples = 229,224
+2025-11-13 15:06:27.089 - INFO: Reading patterns from file bvbrc.index.patterns ...
+2025-11-13 15:06:27.089 - INFO: Sorting random result tables to estimate the sorting performance of this machine ...
+2025-11-13 15:06:27.090 - INFO: Access token for restricted API calls is ""
+2025-11-13 15:06:27.090 - INFO: The server is ready, listening for requests on port 7007 ...
+2025-11-13 15:06:27.098 - INFO: 
+2025-11-13 15:06:27.098 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
+2025-11-13 15:06:27.098 - INFO: Alive check with message "from the `qlever` CLI"
+2025-11-13 15:06:27.106 - INFO: 
+2025-11-13 15:06:27.106 - INFO: Request received via GET, no content type specified
+2025-11-13 15:06:27.106 - ERROR: Access token was provided but server was started without --access-token
+2025-11-13 15:06:27.115 - INFO: 
+2025-11-13 15:06:27.115 - INFO: Request received via GET, no content type specified
+2025-11-13 15:06:27.115 - ERROR: Access token was provided but server was started without --access-token
+2025-11-13 15:06:27.122 - INFO: 
+2025-11-13 15:06:27.122 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
+2025-11-13 15:06:27.122 - INFO: Processing command "cache-stats": get cache statistics
+2025-11-13 15:06:27.128 - INFO: 
+2025-11-13 15:06:27.128 - INFO: Request received via POST, content type "application/x-www-form-urlencoded"
+2025-11-13 15:06:27.128 - INFO: Processing command "get-settings": get server settings
+2025-11-13 15:06:36.110 - INFO: 
+2025-11-13 15:06:36.110 - INFO: Request received via GET, no content type specified
+2025-11-13 15:06:36.114 - INFO: Processing the following SPARQL Query:
+PREFIX  schema: <https://schema.org/>
+PREFIX  rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT  ?subject ?spatialcoverage_name ?run_accession
+WHERE
+  { ?subject  rdf:type              schema:InfectiousDisease ;
+              schema:name           "Monkeypox virus" ;
+              schema:additionalProperty  ?additionalproperty .
+    ?additionalproperty
+              schema:propertyID     "run_accession" ;
+              schema:value          ?run_accession .
+    ?subject  schema:spatialCoverage  ?spatialcoverage .
+    ?spatialcoverage
+              schema:name           ?spatialcoverage_name
+    FILTER regex(?spatialcoverage_name, "Japan")
+  }
+LIMIT   1000
+
+2025-11-13 15:06:36.114 - INFO: Requested media types of the result are: "application/sparql-results+json", "application/sparql-results+xml", "text/tab-separated-values", "text/csv"
+2025-11-13 15:06:36.123 - INFO: Query planning done in 12 ms
+2025-11-13 15:06:36.134 - INFO: Result has size 0 x 5
+2025-11-13 15:06:36.134 - INFO: Done processing query and sending result, total time was 24 ms
+2025-11-13 15:06:46.882 - INFO: 
+2025-11-13 15:06:46.882 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:06:46.885 - INFO: 
+2025-11-13 15:06:46.885 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:06:46.885 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?subject  ?spatialcoverage_name ?run_accession  
+WHERE {
+  	?subject a schema:InfectiousDisease .
+  
+}
+
+2025-11-13 15:06:46.886 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:06:46.886 - INFO: Query planning done in 1 ms
+2025-11-13 15:06:46.886 - INFO: Result has size 145 x 1
+2025-11-13 15:06:46.886 - WARN: The variable "?spatialcoverage_name" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:06:46.886 - WARN: The variable "?run_accession" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:06:46.887 - INFO: Number of bindings exported: 100 of 145
+2025-11-13 15:06:46.887 - INFO: Done processing query and sending result, total time was 2 ms
+2025-11-13 15:06:59.673 - INFO: 
+2025-11-13 15:06:59.673 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:06:59.675 - INFO: 
+2025-11-13 15:06:59.675 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:06:59.675 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT ?subject  ?spatialcoverage_name ?run_accession  
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+   
+}
+
+2025-11-13 15:06:59.675 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:06:59.676 - INFO: Query planning done in 0 ms
+2025-11-13 15:06:59.676 - INFO: Result has size 1 x 1
+2025-11-13 15:06:59.676 - WARN: The variable "?spatialcoverage_name" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:06:59.676 - WARN: The variable "?run_accession" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:06:59.677 - INFO: Done processing query and sending result, total time was 2 ms
+2025-11-13 15:07:18.119 - INFO: 
+2025-11-13 15:07:18.119 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:07:18.122 - INFO: 
+2025-11-13 15:07:18.122 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:07:18.122 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?spatialcoverage_name ?run_accession  
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+    ?additionalproperty schema:propertyID "run_accession" .
+    ?additionalproperty schema:value ?run_accession .
+  
+	
+	?subject schema:spatialCoverage ?spatialcoverage .
+    ?spatialcoverage schema:name ?spatialcoverage_name .
+  
+    FILTER(REGEX(?spatialcoverage_name, "Japan"))  
+}
+
+2025-11-13 15:07:18.123 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:07:18.133 - INFO: Query planning done in 11 ms
+2025-11-13 15:07:18.135 - INFO: Result has size 0 x 5
+2025-11-13 15:07:18.135 - INFO: Done processing query and sending result, total time was 13 ms
+2025-11-13 15:07:27.402 - INFO: 
+2025-11-13 15:07:27.402 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:07:27.405 - INFO: 
+2025-11-13 15:07:27.405 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:07:27.405 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?spatialcoverage_name ?run_accession  
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+    ?additionalproperty schema:propertyID "run_accession" .
+   
+}
+
+2025-11-13 15:07:27.405 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:07:27.406 - INFO: Query planning done in 1 ms
+2025-11-13 15:07:27.410 - INFO: Result has size 1 x 2
+2025-11-13 15:07:27.410 - WARN: The variable "?spatialcoverage_name" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:07:27.410 - WARN: The variable "?run_accession" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:07:27.410 - INFO: Done processing query and sending result, total time was 5 ms
+2025-11-13 15:07:33.058 - INFO: 
+2025-11-13 15:07:33.058 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:07:33.060 - INFO: 
+2025-11-13 15:07:33.060 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:07:33.060 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?spatialcoverage_name ?run_accession  
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+   
+}
+
+2025-11-13 15:07:33.060 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:07:33.061 - INFO: Query planning done in 1 ms
+2025-11-13 15:07:33.063 - INFO: Result has size 1 x 2
+2025-11-13 15:07:33.063 - WARN: The variable "?spatialcoverage_name" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:07:33.063 - WARN: The variable "?run_accession" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:07:33.063 - INFO: Done processing query and sending result, total time was 3 ms
+2025-11-13 15:07:40.609 - INFO: 
+2025-11-13 15:07:40.609 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:07:40.610 - INFO: 
+2025-11-13 15:07:40.610 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:07:40.611 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  *
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+   
+}
+
+2025-11-13 15:07:40.611 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:07:40.611 - INFO: Query planning done in 1 ms
+2025-11-13 15:07:40.612 - INFO: Result has size 300 x 2
+2025-11-13 15:07:40.612 - INFO: Number of bindings exported: 100 of 300
+2025-11-13 15:07:40.613 - INFO: Done processing query and sending result, total time was 2 ms
+2025-11-13 15:07:47.098 - INFO: 
+2025-11-13 15:07:47.098 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:07:47.100 - INFO: 
+2025-11-13 15:07:47.100 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:07:47.103 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+
+
+SELECT ?qleverui_entity
+              (MIN(?name) as ?qleverui_name)
+              (MIN(?alias) as ?qleverui_alias)
+              (SAMPLE(?count_2) as ?qleverui_count) WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_2)
+    WHERE { ?subject schema:additionalProperty ?additionalproperty . ?subject a schema:InfectiousDisease . ?subject schema:name "Monkeypox virus" . ?additionalproperty ql:has-predicate ?qleverui_entity }
+    GROUP BY ?qleverui_entity }
+  { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+  { { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } UNION {
+    { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } } }
+  
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+
+
+LIMIT 40
+OFFSET 0
+2025-11-13 15:07:47.103 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:07:47.106 - INFO: Query planning done in 6 ms
+2025-11-13 15:07:47.127 - INFO: Result has size 4 x 4
+2025-11-13 15:07:47.128 - INFO: Done processing query and sending result, total time was 28 ms
+2025-11-13 15:07:54.056 - INFO: 
+2025-11-13 15:07:54.056 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:07:54.058 - INFO: 
+2025-11-13 15:07:54.058 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:07:54.059 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:name "Monkeypox virus" . ?additionalproperty schema:propertyID ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:name "Monkeypox virus" . ?additionalproperty schema:propertyID ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:07:54.060 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:07:54.061 - INFO: Query planning done in 3 ms
+2025-11-13 15:07:54.095 - INFO: Result has size 3 x 4
+2025-11-13 15:07:54.095 - INFO: Done processing query and sending result, total time was 37 ms
+2025-11-13 15:08:01.252 - INFO: 
+2025-11-13 15:08:01.252 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:08:01.256 - INFO: 
+2025-11-13 15:08:01.256 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:08:01.257 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+
+
+SELECT ?qleverui_entity
+              (MIN(?name) as ?qleverui_name)
+              (MIN(?alias) as ?qleverui_alias)
+              (SAMPLE(?count_2) as ?qleverui_count) WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_2)
+    WHERE { ?subject schema:additionalProperty ?additionalproperty . ?additionalproperty schema:propertyID "run_accession" . ?subject a schema:InfectiousDisease . ?subject schema:name "Monkeypox virus" . ?additionalproperty ql:has-predicate ?qleverui_entity }
+    GROUP BY ?qleverui_entity }
+  { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+  { { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } UNION {
+    { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } } }
+  
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+
+
+LIMIT 40
+OFFSET 0
+2025-11-13 15:08:01.257 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:08:01.260 - INFO: Query planning done in 4 ms
+2025-11-13 15:08:01.268 - INFO: Result has size 4 x 4
+2025-11-13 15:08:01.269 - INFO: Done processing query and sending result, total time was 13 ms
+2025-11-13 15:08:03.705 - INFO: 
+2025-11-13 15:08:03.706 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:08:03.707 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:name "Monkeypox virus" . ?additionalproperty schema:value ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:name "Monkeypox virus" . ?additionalproperty schema:value ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:08:03.707 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:08:03.709 - INFO: Query planning done in 3 ms
+2025-11-13 15:08:03.727 - INFO: Result has size 100 x 4
+2025-11-13 15:08:03.727 - INFO: Done processing query and sending result, total time was 21 ms
+2025-11-13 15:08:05.133 - INFO: 
+2025-11-13 15:08:05.133 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:08:05.133 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  *
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+   
+}
+
+2025-11-13 15:08:05.134 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:08:05.135 - INFO: Query planning done in 2 ms
+2025-11-13 15:08:05.137 - INFO: Result has size 100 x 3
+2025-11-13 15:08:05.138 - INFO: Done processing query and sending result, total time was 5 ms
+2025-11-13 15:08:23.139 - INFO: 
+2025-11-13 15:08:23.139 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:08:23.141 - INFO: 
+2025-11-13 15:08:23.141 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:08:23.142 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+   
+}
+
+2025-11-13 15:08:23.142 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:08:23.143 - INFO: Query planning done in 1 ms
+2025-11-13 15:08:23.143 - INFO: Result has size 100 x 3
+2025-11-13 15:08:23.144 - INFO: Done processing query and sending result, total time was 2 ms
+2025-11-13 15:08:51.094 - INFO: 
+2025-11-13 15:08:51.094 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:08:51.096 - INFO: 
+2025-11-13 15:08:51.096 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:08:51.097 - ERROR: Invalid SPARQL query: Token "Japan": mismatched input 'Japan' expecting {')', ','}
+2025-11-13 15:08:51.097 - ERROR: PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+SELECT ?qleverui_entity (SAMPLE(?name) AS ?qleverui_name) (SAMPLE(?alias) AS ?qleverui_alias) (SAMPLE(?count) AS ?qleverui_count) WHERE {
+  { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?alias }
+  
+  FILTER (REGEX(?alias, "^\"FILTER(REGEX(\\?spatialcoverage_name, "[1m[4m[31mJapan[0m"))") || REGEX(?alias, "^<FILTER(REGEX(\\?spatialcoverage_name, "Japan"))"))
+  
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+
+
+LIMIT 40
+OFFSET 0
+2025-11-13 15:08:51.907 - INFO: 
+2025-11-13 15:08:51.907 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:08:51.908 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+   
+
+	?subject schema:spatialCoverage ?spatialcoverage .
+    ?spatialcoverage schema:name ?spatialcoverage_name .
+
+    FILTER(REGEX(?spatialcoverage_name, "Japan"))
+}
+
+2025-11-13 15:08:51.908 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:08:51.918 - INFO: Query planning done in 10 ms
+2025-11-13 15:08:51.919 - INFO: Result has size 0 x 5
+2025-11-13 15:08:51.920 - INFO: Done processing query and sending result, total time was 12 ms
+2025-11-13 15:09:01.088 - INFO: 
+2025-11-13 15:09:01.088 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:09:01.091 - INFO: 
+2025-11-13 15:09:01.091 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:09:01.092 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+   
+
+	?subject schema:spatialCoverage ?spatialcoverage .
+    ?spatialcoverage schema:name ?spatialcoverage_name .
+
+	
+}
+
+2025-11-13 15:09:01.092 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:09:01.098 - INFO: Query planning done in 6 ms
+2025-11-13 15:09:01.099 - INFO: Result has size 0 x 5
+2025-11-13 15:09:01.100 - INFO: Done processing query and sending result, total time was 8 ms
+2025-11-13 15:09:05.854 - INFO: 
+2025-11-13 15:09:05.854 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:09:05.855 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:name "Monkeypox virus" .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+   
+
+	?subject schema:spatialCoverage ?spatialcoverage .
+
+	
+}
+
+2025-11-13 15:09:05.855 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:09:05.858 - INFO: Query planning done in 3 ms
+2025-11-13 15:09:05.860 - INFO: Result has size 0 x 4
+2025-11-13 15:09:05.860 - INFO: Done processing query and sending result, total time was 6 ms
+2025-11-13 15:09:15.127 - INFO: 
+2025-11-13 15:09:15.127 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:09:15.130 - INFO: 
+2025-11-13 15:09:15.130 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:09:15.132 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+
+
+SELECT ?qleverui_entity
+              (MIN(?name) as ?qleverui_name)
+              (MIN(?alias) as ?qleverui_alias)
+              (SAMPLE(?count_2) as ?qleverui_count) WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_2)
+    WHERE { ?subject a schema:InfectiousDisease . ?subject schema:name "Monkeypox virus" . ?subject schema:additionalProperty ?additionalproperty . ?additionalproperty schema:propertyID "run_accession" . ?additionalproperty schema:value ?value . ?subject ql:has-predicate ?qleverui_entity }
+    GROUP BY ?qleverui_entity }
+  { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+  { { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } UNION {
+    { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } } }
+  
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+
+
+LIMIT 40
+OFFSET 0
+2025-11-13 15:09:15.132 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:09:15.137 - INFO: Query planning done in 6 ms
+2025-11-13 15:09:15.147 - INFO: Result has size 5 x 4
+2025-11-13 15:09:15.147 - INFO: Done processing query and sending result, total time was 16 ms
+2025-11-13 15:10:14.748 - INFO: 
+2025-11-13 15:10:14.748 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:10:14.751 - INFO: 
+2025-11-13 15:10:14.751 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:14.752 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+
+
+SELECT ?qleverui_entity
+              (MIN(?name) as ?qleverui_name)
+              (MIN(?alias) as ?qleverui_alias)
+              (SAMPLE(?count_2) as ?qleverui_count) WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_2)
+    WHERE { ?subject a schema:InfectiousDisease . ?subject schema:additionalProperty ?additionalproperty . ?additionalproperty schema:propertyID "run_accession" . ?additionalproperty schema:value ?value . ?subject ql:has-predicate ?qleverui_entity }
+    GROUP BY ?qleverui_entity }
+  { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+  { { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } UNION {
+    { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } } }
+  
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+
+
+LIMIT 40
+OFFSET 0
+2025-11-13 15:10:14.752 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:10:14.756 - INFO: Query planning done in 5 ms
+2025-11-13 15:10:14.768 - INFO: Result has size 6 x 4
+2025-11-13 15:10:14.768 - INFO: Done processing query and sending result, total time was 17 ms
+2025-11-13 15:10:18.200 - INFO: 
+2025-11-13 15:10:18.200 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:18.201 - ERROR: Invalid SPARQL query: Token "^": mismatched input '^' expecting {')', ','}
+2025-11-13 15:10:18.201 - ERROR: PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value . ?subject schema:spatialCoverage ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+      FILTER (REGEX(?alias, "^\"\") || REGEX(?alias, "[1m[4m[31m^[0m<\"))
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value . ?subject schema:spatialCoverage ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+      FILTER (REGEX(?alias, "^\"\") || REGEX(?alias, "^<\"))
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:10:19.020 - INFO: 
+2025-11-13 15:10:19.020 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:19.021 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value . ?subject schema:spatialCoverage ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value . ?subject schema:spatialCoverage ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:10:19.021 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:10:19.026 - INFO: Query planning done in 5 ms
+2025-11-13 15:10:19.058 - INFO: Result has size 2,894 x 4
+2025-11-13 15:10:19.059 - INFO: Done processing query and sending result, total time was 38 ms
+2025-11-13 15:10:22.446 - INFO: 
+2025-11-13 15:10:22.446 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:10:22.449 - INFO: 
+2025-11-13 15:10:22.449 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:22.451 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+
+
+SELECT ?qleverui_entity
+              (MIN(?name) as ?qleverui_name)
+              (MIN(?alias) as ?qleverui_alias)
+              (SAMPLE(?count_2) as ?qleverui_count) WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_2)
+    WHERE { ?subject schema:spatialCoverage ?spatialcoverage . ?subject a schema:InfectiousDisease . ?subject schema:additionalProperty ?additionalproperty . ?additionalproperty schema:propertyID "run_accession" . ?additionalproperty schema:value ?value . ?spatialcoverage ql:has-predicate ?qleverui_entity }
+    GROUP BY ?qleverui_entity }
+  { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+  { { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } UNION {
+    { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } } }
+  
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+
+
+LIMIT 40
+OFFSET 0
+2025-11-13 15:10:22.451 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:10:22.459 - INFO: Query planning done in 9 ms
+2025-11-13 15:10:22.510 - INFO: Result has size 2 x 4
+2025-11-13 15:10:22.510 - INFO: Done processing query and sending result, total time was 61 ms
+2025-11-13 15:10:25.810 - INFO: 
+2025-11-13 15:10:25.810 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:25.812 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value . ?spatialcoverage schema:name ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value . ?spatialcoverage schema:name ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:10:25.812 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:10:25.831 - INFO: Query planning done in 20 ms
+2025-11-13 15:10:25.847 - INFO: Result has size 160 x 4
+2025-11-13 15:10:25.848 - INFO: Done processing query and sending result, total time was 37 ms
+2025-11-13 15:10:34.823 - INFO: 
+2025-11-13 15:10:34.823 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:10:34.825 - INFO: 
+2025-11-13 15:10:34.825 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:34.825 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+  ?subject schema:spatialCoverage ?spatialcoverage .
+  ?spatialcoverage schema:name ?spatial_name .
+  
+ 	
+}
+
+2025-11-13 15:10:34.825 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:10:34.830 - INFO: Query planning done in 4 ms
+2025-11-13 15:10:34.832 - INFO: Result has size 5,719 x 5
+2025-11-13 15:10:34.833 - INFO: Number of bindings exported: 100 of 5,719
+2025-11-13 15:10:34.833 - INFO: Done processing query and sending result, total time was 8 ms
+2025-11-13 15:10:42.054 - INFO: 
+2025-11-13 15:10:42.054 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:10:42.056 - INFO: 
+2025-11-13 15:10:42.056 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:42.056 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value ?spatial_name 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+  ?subject schema:spatialCoverage ?spatialcoverage .
+  ?spatialcoverage schema:name ?spatial_name .
+  
+ 	
+}
+
+2025-11-13 15:10:42.056 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:10:42.060 - INFO: Query planning done in 4 ms
+2025-11-13 15:10:42.063 - INFO: Result has size 22,744 x 5
+2025-11-13 15:10:42.063 - INFO: Number of bindings exported: 100 of 22,744
+2025-11-13 15:10:42.064 - INFO: Done processing query and sending result, total time was 7 ms
+2025-11-13 15:10:53.812 - INFO: 
+2025-11-13 15:10:53.813 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:10:53.816 - INFO: 
+2025-11-13 15:10:53.816 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:53.818 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+
+
+SELECT ?qleverui_entity
+              (MIN(?name) as ?qleverui_name)
+              (MIN(?alias) as ?qleverui_alias)
+              (SAMPLE(?count_2) as ?qleverui_count) WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_2)
+    WHERE { ?subject a schema:InfectiousDisease . ?subject schema:additionalProperty ?additionalproperty . ?additionalproperty schema:propertyID "run_accession" . ?additionalproperty schema:value ?value . ?subject schema:spatialCoverage ?spatialcoverage . ?spatialcoverage schema:name ?spatial_name . ?subject ql:has-predicate ?qleverui_entity }
+    GROUP BY ?qleverui_entity }
+  { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+  { { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } UNION {
+    { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE { ?x ql:has-predicate ?qleverui_entity } GROUP BY ?qleverui_entity }
+    BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias) .
+    FILTER (?qleverui_entity != <QLever-internal-function/langtag>)
+  } } }
+  
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+
+
+LIMIT 40
+OFFSET 0
+2025-11-13 15:10:53.818 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:10:53.850 - INFO: Query planning done in 33 ms
+2025-11-13 15:10:53.868 - INFO: Result has size 6 x 4
+2025-11-13 15:10:53.869 - INFO: Done processing query and sending result, total time was 52 ms
+2025-11-13 15:10:56.463 - INFO: 
+2025-11-13 15:10:56.464 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:56.465 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name . ?subject schema:name ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name . ?subject schema:name ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:10:56.465 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:10:56.498 - INFO: Query planning done in 33 ms
+2025-11-13 15:10:56.516 - INFO: Result has size 73 x 4
+2025-11-13 15:10:56.517 - INFO: Done processing query and sending result, total time was 53 ms
+2025-11-13 15:10:57.929 - INFO: 
+2025-11-13 15:10:57.929 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:10:57.930 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value ?spatial_name 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?subject schema:name ?name .
+  
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+  ?subject schema:spatialCoverage ?spatialcoverage .
+  ?spatialcoverage schema:name ?spatial_name .
+  
+ 	
+}
+
+2025-11-13 15:10:57.930 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:10:57.942 - INFO: Query planning done in 13 ms
+2025-11-13 15:10:57.950 - INFO: Result has size 22,744 x 6
+2025-11-13 15:10:57.951 - INFO: Number of bindings exported: 100 of 22,744
+2025-11-13 15:10:57.951 - INFO: Done processing query and sending result, total time was 21 ms
+2025-11-13 15:11:06.194 - INFO: 
+2025-11-13 15:11:06.194 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:11:06.196 - INFO: 
+2025-11-13 15:11:06.196 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:11:06.197 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value ?name ?spatial_name 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?subject schema:name ?name .
+  
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+  ?subject schema:spatialCoverage ?spatialcoverage .
+  ?spatialcoverage schema:name ?spatial_name .
+  
+ 	
+}
+
+2025-11-13 15:11:06.197 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:11:06.204 - INFO: Query planning done in 8 ms
+2025-11-13 15:11:06.209 - INFO: Result has size 22,744 x 6
+2025-11-13 15:11:06.209 - INFO: Number of bindings exported: 100 of 22,744
+2025-11-13 15:11:06.210 - INFO: Done processing query and sending result, total time was 14 ms
+2025-11-13 15:11:26.466 - INFO: 
+2025-11-13 15:11:26.466 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:11:26.469 - INFO: 
+2025-11-13 15:11:26.469 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:11:26.470 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name . ?subject schema:name ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name . ?subject schema:name ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:11:26.470 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:11:26.505 - INFO: Query planning done in 35 ms
+2025-11-13 15:11:26.506 - INFO: Result has size 73 x 4
+2025-11-13 15:11:26.508 - INFO: Done processing query and sending result, total time was 38 ms
+2025-11-13 15:11:27.487 - INFO: 
+2025-11-13 15:11:27.487 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:11:27.488 - ERROR: Invalid SPARQL query: Token "Bacillus": mismatched input 'Bacillus' expecting {')', ','}
+2025-11-13 15:11:27.488 - ERROR: PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name . ?subject schema:name ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+      FILTER (REGEX(?alias, "^\""[1m[4m[31mBacillus[0m anthracis") || REGEX(?alias, "^<"Bacillus anthracis"))
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name . ?subject schema:name ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+      FILTER (REGEX(?alias, "^\""Bacillus anthracis") || REGEX(?alias, "^<"Bacillus anthracis"))
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:11:28.163 - INFO: 
+2025-11-13 15:11:28.163 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:11:28.164 - ERROR: Invalid SPARQL query: Token "Bacillus": mismatched input 'Bacillus' expecting {')', ','}
+2025-11-13 15:11:28.164 - ERROR: PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name . ?subject schema:name ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+      FILTER (REGEX(?alias, "^\""[1m[4m[31mBacillus[0m anthracis"") || REGEX(?alias, "^<"Bacillus anthracis""))
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject a schema:InfectiousDisease .
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?additionalproperty schema:propertyID "run_accession" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name . ?subject schema:name ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+      FILTER (REGEX(?alias, "^\""Bacillus anthracis"") || REGEX(?alias, "^<"Bacillus anthracis""))
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:11:28.492 - INFO: 
+2025-11-13 15:11:28.492 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:11:28.492 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value ?name ?spatial_name 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?subject schema:name "Bacillus anthracis" .
+  
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+  ?subject schema:spatialCoverage ?spatialcoverage .
+  ?spatialcoverage schema:name ?spatial_name .
+  
+ 	
+}
+
+2025-11-13 15:11:28.492 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:11:28.499 - INFO: Query planning done in 7 ms
+2025-11-13 15:11:28.504 - INFO: Result has size 100 x 5
+2025-11-13 15:11:28.504 - WARN: The variable "?name" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:11:28.504 - INFO: Done processing query and sending result, total time was 12 ms
+2025-11-13 15:11:59.294 - INFO: 
+2025-11-13 15:11:59.294 - INFO: Request received via OPTIONS, allowing everything
+2025-11-13 15:11:59.297 - INFO: 
+2025-11-13 15:11:59.297 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:11:59.297 - ERROR: Invalid SPARQL query: Token "run_accession": mismatched input 'run_accession' expecting {')', ','}
+2025-11-13 15:11:59.297 - ERROR: PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?qleverui_entity
+              (MIN(?name) AS ?qleverui_name)
+              (MIN(?alias) AS ?qleverui_alias)
+              (MAX(?count_1) AS ?qleverui_count) WHERE {
+  {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?subject schema:name "Bacillus anthracis" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name .
+        ?subject a schema:InfectiousDisease . ?additionalproperty schema:propertyID ?qleverui_entity .
+      } GROUP BY ?qleverui_entity }
+      { SELECT ?qleverui_entity ?name ?alias ?count WHERE {
+  { SELECT ?qleverui_entity (COUNT(?qleverui_tmp) AS ?count) WHERE { ?qleverui_entity ql:has-predicate ?qleverui_tmp } GROUP BY ?qleverui_entity }
+  BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+} ORDER BY ?qleverui_entity }
+      
+      FILTER (REGEX(?alias, "^\""[1m[4m[31mrun_accession[0m" \\.") || REGEX(?alias, "^<"run_accession" \\."))
+      
+    } }
+
+  } UNION {
+
+    { SELECT ?qleverui_entity ?name ?alias ?count_1 WHERE {
+      { SELECT ?qleverui_entity (COUNT(?qleverui_entity) AS ?count_1) WHERE {
+        ?subject schema:additionalProperty ?additionalproperty .
+        ?subject schema:name "Bacillus anthracis" .
+        ?additionalproperty schema:value ?value .
+        ?subject schema:spatialCoverage ?spatialcoverage .
+        ?spatialcoverage schema:name ?spatial_name .
+        ?subject a schema:InfectiousDisease . ?additionalproperty schema:propertyID ?qleverui_entity
+      } GROUP BY ?qleverui_entity }
+      BIND(?qleverui_entity AS ?name) BIND(?qleverui_entity AS ?alias)
+      
+      FILTER (REGEX(?alias, "^\""run_accession" \\.") || REGEX(?alias, "^<"run_accession" \\."))
+      
+    } }
+
+  }
+} GROUP BY ?qleverui_entity ORDER BY DESC(?qleverui_count)
+LIMIT 40
+OFFSET 0
+2025-11-13 15:12:01.221 - INFO: 
+2025-11-13 15:12:01.221 - INFO: Request received via POST, content type "application/x-www-form-urlencoded;charset=UTF-8"
+2025-11-13 15:12:01.222 - INFO: Processing the following SPARQL Query:
+PREFIX schema: <https://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT DISTINCT  ?value ?name ?spatial_name 
+WHERE {
+  	?subject a schema:InfectiousDisease .
+    ?subject schema:additionalProperty ?additionalproperty .
+  ?subject schema:name "Bacillus anthracis" .
+  
+  ?additionalproperty schema:propertyID "run_accession" .
+  ?additionalproperty schema:value ?value .
+  
+  ?subject schema:spatialCoverage ?spatialcoverage .
+  ?spatialcoverage schema:name ?spatial_name .
+  
+ 	
+}
+
+2025-11-13 15:12:01.222 - INFO: Requested media types of the result are: "application/qlever-results+json"
+2025-11-13 15:12:01.229 - INFO: Query planning done in 7 ms
+2025-11-13 15:12:01.229 - INFO: Result has size 100 x 5
+2025-11-13 15:12:01.230 - WARN: The variable "?name" was found in the original query, but not in the execution tree. This is likely a bug
+2025-11-13 15:12:01.231 - INFO: Done processing query and sending result, total time was 9 ms
