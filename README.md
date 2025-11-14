@@ -21,7 +21,7 @@ The NIAID Bioinformatics Resource Centers (BRCs) invite researchers, data scient
 
 ### How to use the PDN2RDF MVP Pipeline
 
-insert text
+![Instructions](https://github.com/NIAID-BRC-Codeathons/RDF-knowledge-graph-construction/blob/main/docs/README.md)
 
 ## Team 
 - Panayiotis Smeros: SIB Swiss Institute of Bioinformatics (panayiotis.smeros@sib.swiss)
