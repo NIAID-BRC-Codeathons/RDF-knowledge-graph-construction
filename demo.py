@@ -108,10 +108,10 @@ async def set_starters():
     return [
         cl.Starter(
             label="List Pathogens",
-            message="Provide an exhaustive list of all the pathogens you are aware of and classify them",
+            message="Provide an extensive list of all the pathogens you are aware of and classify them",
         ),
         cl.Starter(
             label="Pathogens in China",
-            message="Provide an exhaustive list of the pathogens in China",
+            message="Provide an extensive list of the pathogens in China",
         ),
     ]
