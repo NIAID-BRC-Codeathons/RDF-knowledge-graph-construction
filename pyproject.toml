@@ -13,4 +13,9 @@ dependencies = [
     "openai >=2.7.2",
     "chainlit >=2.8.1",
     "sparql_llm >=0.1.2",
+    "ipysigma>=0.24.5",
+    "networkx>=3.5",
+    "pygraphml>=2.4.2",
+    "notebook>=7.4.7",
+    "sparqlwrapper>=2.0.0",
 ]

@@ -1,0 +1,2294 @@
+<?xml version="1.0" ?>
+<graphml>
+    <key id="label" attr.name="label" attr.type="string"/>
+    <key id="type" attr.name="type" attr.type="string"/>
+    <key id="predicate" attr.name="predicate" attr.type="string"/>
+    <graph id="" edgedefault="undirected">
+        <node id="Acremonium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Guyuan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Acremonium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Helan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Acremonium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Lingwu">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Acremonium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Liupanshan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Acremonium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Shenyang">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Acremonium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Yanchi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aphanomyces astaci">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Sweden:Sirsjon">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aphanomyces astaci">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Sweden:Svennevadsan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aphanomyces astaci">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Sweden:Yxen">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aphanomyces invadans">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="India:ICAR-NBFGR">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aspergillus fumigatus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Chiba">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aspergillus fumigatus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Gifu">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aspergillus fumigatus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hokkaido">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aspergillus fumigatus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Iwate">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aspergillus fumigatus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Nagano">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Aspergillus fumigatus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokyo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bacillus anthracis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokyo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Balamuthia mandrillaris">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Shanghai">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Balamuthia mandrillaris">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Athens,GA">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bandavirus dabieense">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Beijing">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bandavirus dabieense">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Wuhan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bandavirus dabieense">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Zhejiang">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bandavirus dabieense">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:NY">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Batrachochytrium dendrobatidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Chiapas">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Batrachochytrium dendrobatidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Guanajuato">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Batrachochytrium dendrobatidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Guerrero">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Batrachochytrium dendrobatidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Hidalgo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Batrachochytrium dendrobatidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Michoacan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Batrachochytrium dendrobatidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Oaxaca">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Batrachochytrium dendrobatidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Tlaxcala">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Batrachochytrium dendrobatidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Veracruz">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Batrachochytrium dendrobatidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:California">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Aichi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Chiba">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Fukuoka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hokkaido">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hyogo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Iwate">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kanagawa">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Mie">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Miyazaki">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Nagano">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Nagasaki">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Niigata">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Osaka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Shizuoka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokushima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokyo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tottori">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Bordetella pertussis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Toyama">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Brucella">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Beijing">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Candida tropicalis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Wenjiang,Sichuan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Candidozyma auris">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokyo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chapare mammarenavirus (isolate Human/Bolivia/810419/2003)">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:MD">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chikungunya virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Chiapas">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chikungunya virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Colima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chikungunya virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Colima2">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chikungunya virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Veracruz2">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chikungunya virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Mexico:Yucatan2">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chikungunya virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:California">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chlamydia psittaci">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:huizhou">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chlamydia psittaci">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Shenzhen">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chlamydia psittaci">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokyo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chlamydia psittaci">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Georgia">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Chlamydia psittaci">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Virginia">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Citrobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:beijing">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Citrobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Changsha">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Citrobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Hengyang">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Citrobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Shenyang">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Citrobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:WV">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridioides difficile">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hiroshima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium botulinum">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:CA">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium botulinum">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Colorado">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium botulinum">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:IN">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium botulinum">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:KY">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium botulinum">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:MI">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium botulinum">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Nebraska">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium botulinum">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:OH">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium botulinum">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Virginia">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hokkaido">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Iwate">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kagoshima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kanagawa">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kumamoto">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Nagano">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Osaka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Saitama">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Shimane">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Clostridium tetani">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Shizuoka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Coxiella burnetii">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:beijing">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Coxiella burnetii">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:California">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Cryptococcus gattii">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Fujian">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Cryptosporidium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Henan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Decapod iridescent virus 1">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:HuZhou">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Eastern equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Barnstable">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Eastern equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Bristol">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Eastern equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Connecticut,Stonington">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Eastern equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Essex">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Eastern equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Middlesex">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Eastern equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Norfolk">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Eastern equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Plymouth">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Eastern equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Worcester">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Echinococcus granulosus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:XingJiang">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Echinococcus granulosus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Xinjiang">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Entamoeba histolytica">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokyo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Entamoeba histolytica">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:California,Fremont">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Canada:Quebec">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Beijing">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:shanghai">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:NH">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterobacter">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:WV">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterococcus faecium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Aomori">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterococcus faecium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hiroshima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterococcus faecium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Osaka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterovirus A">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Arizona">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Enterovirus D">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Massachusetts">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Escherichia coli">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Miyazaki">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Escherichia coli">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Malawi:Lilongwe">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Escherichia coli">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Myanmar:Yangon">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Foot-and-mouth disease virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Myanmar:Yangon">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Foot-and-mouth disease virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Pakistan:Kohat">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Foot-and-mouth disease virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Pakistan:Rawalpindi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Foot-and-mouth disease virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Pakistan:Sargodha">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Francisella tularensis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Sweden:Ljusdal">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Fusarium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Guyuan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Fusarium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:harbin">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Fusarium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Harbin">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Fusarium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Helan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Fusarium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Lingwu">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Fusarium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Liupanshan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Fusarium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Wuhan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Fusarium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:ya'an">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Fusarium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Yanchi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Guanarito mammarenavirus (isolate Human/Venezuela/NH-95551/1990)">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:MD">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Henipavirus hendraense">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:MD">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Hepatovirus A">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Spain:Catalonia">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Human immunodeficiency virus type 1">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Aichi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Junin mammarenavirus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:MD">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Klebsiella pneumoniae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Osaka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Klebsiella pneumoniae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokyo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Klebsiella pneumoniae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Myanmar:Yangon">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Klebsiella pneumoniae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Thailand:Bangkok">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Legionella pneumophila">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kanagawa">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Legionella pneumophila">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kobe">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Lyssavirus rabies">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Thailand:Surin">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Machupo virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Bolivia:Guayaramerin">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Machupo virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Bolivia:Itenez">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Machupo virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Bolivia:Matuaje">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Machupo virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:MD">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Mammarenavirus lassaense">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Virginia">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Mayaro virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="France:Paris">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Nanning">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Sichuan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Taiwan:Taipei">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:AL">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:AR">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:AZ">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:CA">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:CA/AZ">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:FL">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:GA">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:LA">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:MN">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:NC">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:NM">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:NV">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:OK">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:TX">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Naegleria fowleri">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:VA">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Neisseria gonorrhoeae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Aichi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Neisseria gonorrhoeae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Gifu">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Neisseria gonorrhoeae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Miyagi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Neisseria gonorrhoeae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Osaka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Neisseria gonorrhoeae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Saitama">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Neisseria meningitidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kagoshima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Neisseria meningitidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kanagawa">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Neisseria meningitidis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Wakayama">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Orthohantavirus hantanense">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Jiangxi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Orthonairovirus haemorrhagiae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:MD">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Orthonairovirus haemorrhagiae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Virginia">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Orthopneumovirus hominis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Philadelphia">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Perkinsus marinus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Texas">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Perkinsus olseni">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Mie">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Perkinsus olseni">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Spain:Galicia">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pichia kudriavzevii">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Ningbo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pichia kudriavzevii">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Malaysia:Perlis">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pseudomonas aeruginosa">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hiroshima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pseudomonas aeruginosa">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hokkaido">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pseudomonas aeruginosa">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Ishikawa">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pseudomonas aeruginosa">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kanagawa">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pseudomonas aeruginosa">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Nagano">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pseudomonas aeruginosa">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Saitama">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pseudomonas aeruginosa">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokyo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Pseudomonas aeruginosa">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Wakayama">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Rhinovirus A">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Beijing">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Rhinovirus B">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Massachusetts">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Rhinovirus B">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Wisconsin">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Rhinovirus C">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:CA">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Rickettsia">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Gansu">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Rotavirus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Yunnan">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Aomori">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Chubu">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Ehime">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Fukui">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hiroshima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hokkaido">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hyogo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kanagawa">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kyushu">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Miyagi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Shimane">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tohoku">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Toyama">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Salmonella enterica I">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Yamanashi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Scedosporium">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Karamay">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Serratia">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="China:Yanchi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Severe acute respiratory syndrome coronavirus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:NC">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Severe acute respiratory syndrome coronavirus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:TX">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Shigella">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Spain:Sevilla">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Aichi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Fukuoka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Gunma">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hiroshima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hokkaido">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Hyogo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Ibaraki">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Ishikawa">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kagoshima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kumamoto">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kyoto">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Nagasaki">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Nara">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Niigata">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Oita">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Okayama">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Staphylococcus aureus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Yamaguchi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Streptococcus agalactiae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Aichi">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Streptococcus agalactiae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Gunma">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Streptococcus agalactiae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Nagasaki">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Streptococcus agalactiae">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Thailand:Ubol-NE">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Streptococcus pyogenes">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Fukushima">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Streptococcus pyogenes">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Kobe">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Streptococcus pyogenes">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Osaka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Streptococcus pyogenes">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Sapporo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Streptococcus pyogenes">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Tokyo">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Toxoplasma gondii">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Ehime">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Toxoplasma gondii">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Gifu">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Toxoplasma gondii">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Okinawa">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Toxoplasma gondii">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Japan:Osaka">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Trichomonas vaginalis">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Italy:Sardinia">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Venezuelan equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="USA:Galveston">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Venezuelan equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Venezuela:Guarija">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="Western equine encephalitis virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="Russia:Urdmurt">
+            <data key="type">geospatial</data>
+        </node>
+        <node id="White spot syndrome virus">
+            <data key="type">pathogen</data>
+        </node>
+        <node id="India:Nellore">
+            <data key="type">geospatial</data>
+        </node>
+        <edge source="Acremonium" target="China:Guyuan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Acremonium" target="China:Helan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Acremonium" target="China:Lingwu">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Acremonium" target="China:Liupanshan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Acremonium" target="China:Shenyang">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Acremonium" target="China:Yanchi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aphanomyces astaci" target="Sweden:Sirsjon">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aphanomyces astaci" target="Sweden:Svennevadsan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aphanomyces astaci" target="Sweden:Yxen">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aphanomyces invadans" target="India:ICAR-NBFGR">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aspergillus fumigatus" target="Japan:Chiba">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aspergillus fumigatus" target="Japan:Gifu">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aspergillus fumigatus" target="Japan:Hokkaido">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aspergillus fumigatus" target="Japan:Iwate">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aspergillus fumigatus" target="Japan:Nagano">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Aspergillus fumigatus" target="Japan:Tokyo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bacillus anthracis" target="Japan:Tokyo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Balamuthia mandrillaris" target="China:Shanghai">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Balamuthia mandrillaris" target="USA:Athens,GA">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bandavirus dabieense" target="China:Beijing">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bandavirus dabieense" target="China:Wuhan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bandavirus dabieense" target="China:Zhejiang">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bandavirus dabieense" target="USA:NY">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Batrachochytrium dendrobatidis" target="Mexico:Chiapas">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Batrachochytrium dendrobatidis" target="Mexico:Guanajuato">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Batrachochytrium dendrobatidis" target="Mexico:Guerrero">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Batrachochytrium dendrobatidis" target="Mexico:Hidalgo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Batrachochytrium dendrobatidis" target="Mexico:Michoacan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Batrachochytrium dendrobatidis" target="Mexico:Oaxaca">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Batrachochytrium dendrobatidis" target="Mexico:Tlaxcala">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Batrachochytrium dendrobatidis" target="Mexico:Veracruz">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Batrachochytrium dendrobatidis" target="USA:California">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Aichi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Chiba">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Fukuoka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Hokkaido">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Hyogo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Iwate">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Kanagawa">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Mie">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Miyazaki">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Nagano">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Nagasaki">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Niigata">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Osaka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Shizuoka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Tokushima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Tokyo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Tottori">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Bordetella pertussis" target="Japan:Toyama">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Brucella" target="China:Beijing">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Candida tropicalis" target="China:Wenjiang,Sichuan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Candidozyma auris" target="Japan:Tokyo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chapare mammarenavirus (isolate Human/Bolivia/810419/2003)" target="USA:MD">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chikungunya virus" target="Mexico:Chiapas">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chikungunya virus" target="Mexico:Colima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chikungunya virus" target="Mexico:Colima2">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chikungunya virus" target="Mexico:Veracruz2">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chikungunya virus" target="Mexico:Yucatan2">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chikungunya virus" target="USA:California">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chlamydia psittaci" target="China:huizhou">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chlamydia psittaci" target="China:Shenzhen">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chlamydia psittaci" target="Japan:Tokyo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chlamydia psittaci" target="USA:Georgia">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Chlamydia psittaci" target="USA:Virginia">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Citrobacter" target="China:beijing">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Citrobacter" target="China:Changsha">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Citrobacter" target="China:Hengyang">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Citrobacter" target="China:Shenyang">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Citrobacter" target="USA:WV">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridioides difficile" target="Japan:Hiroshima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium botulinum" target="USA:CA">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium botulinum" target="USA:Colorado">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium botulinum" target="USA:IN">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium botulinum" target="USA:KY">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium botulinum" target="USA:MI">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium botulinum" target="USA:Nebraska">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium botulinum" target="USA:OH">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium botulinum" target="USA:Virginia">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Hokkaido">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Iwate">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Kagoshima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Kanagawa">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Kumamoto">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Nagano">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Osaka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Saitama">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Shimane">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Clostridium tetani" target="Japan:Shizuoka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Coxiella burnetii" target="China:beijing">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Coxiella burnetii" target="USA:California">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Cryptococcus gattii" target="China:Fujian">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Cryptosporidium" target="China:Henan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Decapod iridescent virus 1" target="China:HuZhou">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Eastern equine encephalitis virus" target="USA:Barnstable">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Eastern equine encephalitis virus" target="USA:Bristol">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Eastern equine encephalitis virus" target="USA:Connecticut,Stonington">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Eastern equine encephalitis virus" target="USA:Essex">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Eastern equine encephalitis virus" target="USA:Middlesex">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Eastern equine encephalitis virus" target="USA:Norfolk">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Eastern equine encephalitis virus" target="USA:Plymouth">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Eastern equine encephalitis virus" target="USA:Worcester">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Echinococcus granulosus" target="China:XingJiang">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Echinococcus granulosus" target="China:Xinjiang">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Entamoeba histolytica" target="Japan:Tokyo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Entamoeba histolytica" target="USA:California,Fremont">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterobacter" target="Canada:Quebec">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterobacter" target="China:Beijing">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterobacter" target="China:shanghai">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterobacter" target="USA:NH">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterobacter" target="USA:WV">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterococcus faecium" target="Japan:Aomori">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterococcus faecium" target="Japan:Hiroshima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterococcus faecium" target="Japan:Osaka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterovirus A" target="USA:Arizona">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Enterovirus D" target="USA:Massachusetts">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Escherichia coli" target="Japan:Miyazaki">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Escherichia coli" target="Malawi:Lilongwe">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Escherichia coli" target="Myanmar:Yangon">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Foot-and-mouth disease virus" target="Myanmar:Yangon">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Foot-and-mouth disease virus" target="Pakistan:Kohat">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Foot-and-mouth disease virus" target="Pakistan:Rawalpindi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Foot-and-mouth disease virus" target="Pakistan:Sargodha">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Francisella tularensis" target="Sweden:Ljusdal">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Fusarium" target="China:Guyuan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Fusarium" target="China:harbin">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Fusarium" target="China:Harbin">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Fusarium" target="China:Helan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Fusarium" target="China:Lingwu">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Fusarium" target="China:Liupanshan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Fusarium" target="China:Wuhan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Fusarium" target="China:ya'an">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Fusarium" target="China:Yanchi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Guanarito mammarenavirus (isolate Human/Venezuela/NH-95551/1990)" target="USA:MD">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Henipavirus hendraense" target="USA:MD">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Hepatovirus A" target="Spain:Catalonia">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Human immunodeficiency virus type 1" target="Japan:Aichi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Junin mammarenavirus" target="USA:MD">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Klebsiella pneumoniae" target="Japan:Osaka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Klebsiella pneumoniae" target="Japan:Tokyo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Klebsiella pneumoniae" target="Myanmar:Yangon">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Klebsiella pneumoniae" target="Thailand:Bangkok">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Legionella pneumophila" target="Japan:Kanagawa">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Legionella pneumophila" target="Japan:Kobe">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Lyssavirus rabies" target="Thailand:Surin">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Machupo virus" target="Bolivia:Guayaramerin">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Machupo virus" target="Bolivia:Itenez">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Machupo virus" target="Bolivia:Matuaje">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Machupo virus" target="USA:MD">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Mammarenavirus lassaense" target="USA:Virginia">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Mayaro virus" target="France:Paris">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="China:Nanning">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="China:Sichuan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="Taiwan:Taipei">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:AL">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:AR">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:AZ">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:CA">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:CA/AZ">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:FL">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:GA">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:LA">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:MN">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:NC">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:NM">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:NV">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:OK">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:TX">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Naegleria fowleri" target="USA:VA">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Neisseria gonorrhoeae" target="Japan:Aichi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Neisseria gonorrhoeae" target="Japan:Gifu">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Neisseria gonorrhoeae" target="Japan:Miyagi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Neisseria gonorrhoeae" target="Japan:Osaka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Neisseria gonorrhoeae" target="Japan:Saitama">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Neisseria meningitidis" target="Japan:Kagoshima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Neisseria meningitidis" target="Japan:Kanagawa">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Neisseria meningitidis" target="Japan:Wakayama">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Orthohantavirus hantanense" target="China:Jiangxi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Orthonairovirus haemorrhagiae" target="USA:MD">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Orthonairovirus haemorrhagiae" target="USA:Virginia">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Orthopneumovirus hominis" target="USA:Philadelphia">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Perkinsus marinus" target="USA:Texas">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Perkinsus olseni" target="Japan:Mie">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Perkinsus olseni" target="Spain:Galicia">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pichia kudriavzevii" target="China:Ningbo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pichia kudriavzevii" target="Malaysia:Perlis">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pseudomonas aeruginosa" target="Japan:Hiroshima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pseudomonas aeruginosa" target="Japan:Hokkaido">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pseudomonas aeruginosa" target="Japan:Ishikawa">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pseudomonas aeruginosa" target="Japan:Kanagawa">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pseudomonas aeruginosa" target="Japan:Nagano">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pseudomonas aeruginosa" target="Japan:Saitama">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pseudomonas aeruginosa" target="Japan:Tokyo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Pseudomonas aeruginosa" target="Japan:Wakayama">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Rhinovirus A" target="China:Beijing">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Rhinovirus B" target="USA:Massachusetts">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Rhinovirus B" target="USA:Wisconsin">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Rhinovirus C" target="USA:CA">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Rickettsia" target="China:Gansu">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Rotavirus" target="China:Yunnan">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Aomori">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Chubu">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Ehime">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Fukui">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Hiroshima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Hokkaido">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Hyogo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Kanagawa">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Kyushu">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Miyagi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Shimane">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Tohoku">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Toyama">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Salmonella enterica I" target="Japan:Yamanashi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Scedosporium" target="China:Karamay">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Serratia" target="China:Yanchi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Severe acute respiratory syndrome coronavirus" target="USA:NC">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Severe acute respiratory syndrome coronavirus" target="USA:TX">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Shigella" target="Spain:Sevilla">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Aichi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Fukuoka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Gunma">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Hiroshima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Hokkaido">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Hyogo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Ibaraki">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Ishikawa">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Kagoshima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Kumamoto">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Kyoto">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Nagasaki">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Nara">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Niigata">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Oita">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Okayama">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Staphylococcus aureus" target="Japan:Yamaguchi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Streptococcus agalactiae" target="Japan:Aichi">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Streptococcus agalactiae" target="Japan:Gunma">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Streptococcus agalactiae" target="Japan:Nagasaki">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Streptococcus agalactiae" target="Thailand:Ubol-NE">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Streptococcus pyogenes" target="Japan:Fukushima">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Streptococcus pyogenes" target="Japan:Kobe">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Streptococcus pyogenes" target="Japan:Osaka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Streptococcus pyogenes" target="Japan:Sapporo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Streptococcus pyogenes" target="Japan:Tokyo">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Toxoplasma gondii" target="Japan:Ehime">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Toxoplasma gondii" target="Japan:Gifu">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Toxoplasma gondii" target="Japan:Okinawa">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Toxoplasma gondii" target="Japan:Osaka">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Trichomonas vaginalis" target="Italy:Sardinia">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Venezuelan equine encephalitis virus" target="USA:Galveston">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Venezuelan equine encephalitis virus" target="Venezuela:Guarija">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="Western equine encephalitis virus" target="Russia:Urdmurt">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+        <edge source="White spot syndrome virus" target="India:Nellore">
+            <data key="predicate">spatialCoverage</data>
+        </edge>
+    </graph>
+</graphml>
