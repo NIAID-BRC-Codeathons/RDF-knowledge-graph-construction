@@ -33,10 +33,10 @@ insert text
 ## Futur work
 
 - Incorporate additional PDN  data sources to improve coverage and insights.
-- Optimize process to limit data duplication. 
-- Ensure schema profile covers all use cases. Potential alignment with existing schema profiles.
-- Curate additional examples (NL Queries and associated SPARQL Queries) to enhance the LLM performance when responding to a new user question.
-- Turn the online pipeline into an MCP server for improved utility.
+- Optimize process to limit data duplication.
+- Ensure schema profile covers all use cases. Potential alignment with existing schema profiles.
+- Curate additional examples (NL Queries and associated SPARQL Queries) to enhance the LLM performance when responding to a new user question.
+- Turn the online pipeline into an MCP server for improved utility.
 
 
 ## License
