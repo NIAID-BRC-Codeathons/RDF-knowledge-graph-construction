@@ -26,7 +26,7 @@ insert text
 ## Team 
 - Panayiotis Smeros: SIB Swiss Institute of Bioinformatics (panayiotis.smeros@sib.swiss)
 - Imane Lboukili: SIB Swiss Institute of Bioinformatics (PDN) (imane.lboukili@sib.swiss)
-- Douglas Fils: San Diego Super Computer Center (dfils@sdsc.edu)
+- Douglas Fils: San Diego Supercomputer Center (dfils@sdsc.edu)
 - David (Yu) Yuan: EMBL's European Bionformatics Institute (davidyuan@ebi.ac.uk)
 - Senthilnathan Vijayaraja: EMBL's European Bionformatics Institute (vijayaraja@ebi.ac.uk)
 
