@@ -112,6 +112,6 @@ async def set_starters():
         ),
         cl.Starter(
             label="Pathogens in China",
-            message="Provide an extensive list of the pathogens in China",
+            message="Provide an extensive list of the pathogens that have been sequenced in China",
         ),
     ]
