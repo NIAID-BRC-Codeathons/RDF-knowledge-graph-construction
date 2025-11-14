@@ -18,4 +18,5 @@ dependencies = [
     "pygraphml>=2.4.2",
     "notebook>=7.4.7",
     "sparqlwrapper>=2.0.0",
+    "scipy>=1.16.3",
 ]
