@@ -1,3 +1,11 @@
+# Example genAI generated questions
+
+## About
+A simple test that took a domain scientist developed question, passing that along 
+with resource documentation for the ENA, requesting an LM to generate new questions.
+
+## Questions
+
 1. As a virologist, I want to find all the genomic sequences of SARS-CoV-2 in the US in 2024 from the Pathogens Portal.
 
 2. As an infectious disease researcher, I want to find all the genomic sequences of Ebola in Africa in 2023 from the Pathogens Portal.

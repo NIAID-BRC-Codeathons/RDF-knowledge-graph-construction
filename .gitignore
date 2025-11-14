@@ -23,3 +23,4 @@ __pycache__/
 chainlit.md
 /data/output/
 /triplestore/BV-BRC/data/*.nt
+/data/output_large/
