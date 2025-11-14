@@ -2,15 +2,23 @@
 
 ## Code 
 
-The initial ETL code is in etl_ENA_REST.py in the root of the repository.
+The initial ETL code is in curl2RDF.py in the root of the repository.
 
-It is functional but has noteable constraints at this time.
+### Execution Process
+
+1. Run the code with ```python curl2RDF.py```
+2. The code currently returns the fields: _run_accession, experiment_title, tax_id, country, description_.  Future updates will make this configurable
+2. The results will be placed in data/output as a collection of RDF files encoded in n-triples named by the run_accession alphanumeric character string.  
+3. From there the data can be loaded into the Qlever using the commands documented in the section _Commands for running Qlever instance_.
+
+
+The code was developed over the course of the three-day codeathon, so 
+there are several elements that should be addressed.  
 
 1. The REST call for taxon id is hard coded into the function. The only 
 parameters passed are the taxon id and request limit for the number of resources
-2. The JSON-LD template is read from XYZ. This template use will be replaced.  See
-the following section named _RDF Generation and evolution suggestions_ for details
-on planned changes
+2. The JSON-LD template is read from [Pathogen_schemav2.json](../data/Pathogen_schemav2.json). This template approach will be replaced once the profile is more refined.  See
+the following section named _RDF Generation and evolution suggestions_ for details on approaches for more efficient triple generation. 
 
 
 ## RDF Generation and evolution suggestions
